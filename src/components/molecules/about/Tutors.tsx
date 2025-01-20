@@ -19,9 +19,9 @@ export const Tutors = () => {
         {tutors.map((tutor, index) => (
           <div
             key={index}
-            className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[450px] "
+            className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[400px] "
           >
-            <div className=" w-full lg:w-[450px] h-[300px] relative">
+            <div className=" w-full lg:w-[400px] h-[300px] relative">
               <Image src={tutor.src} alt="tutor" fill />
             </div>
             <div className="p-4">

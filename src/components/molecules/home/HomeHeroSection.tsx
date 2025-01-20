@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const HomeHeroSection = () => {
   return (
-    <section className="container mx-auto py-20 px-6 flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-12 w-full ">
+    <section className="container mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-12 w-full md:px-4 ">
       <div className="max-w-3xl">
         <h1 className="text-3xl md:text-6xl font-extrabold leading-normal md:leading-[80px] mb-4">
           Unlock your <span className="text-[#DA251C]">Potential</span> <br />
@@ -17,7 +17,7 @@ export const HomeHeroSection = () => {
         </button>
       </div>
 
-      <div className="relative w-full h-[400px] lg:w-[650px] md:h-[500px]">
+      <div className="relative w-full h-[300px] md:h-[500px] lg:w-[650px] ">
         <Image
           src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737360809/edutech/Image_and_Icons_Container_mutasn.png"
           alt="Students Learning"

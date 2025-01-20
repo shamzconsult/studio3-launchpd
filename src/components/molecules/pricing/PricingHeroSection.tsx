@@ -3,7 +3,7 @@ import React from "react";
 
 export const PricingHeroSection = () => {
   return (
-    <section className="container mx-auto py-20 px-6 flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-12 w-full ">
+    <section className="container mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-12 w-full px-2 md:px-4">
       <div className="max-w-3xl">
         <h1 className="text-3xl md:text-6xl font-extrabold leading-normal md:leading-[70px] mb-4">
           <span className="text-[#DA251C]">Affordable</span> plans for your

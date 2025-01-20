@@ -6,7 +6,7 @@ import { Instagram } from "../icons/Instagram";
 export const Footer = () => {
   return (
     <footer className="mt-20 md:mt-32 bg-white">
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto md:px-6 py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div>
             <div className="relative h-[39px] w-[166px]">

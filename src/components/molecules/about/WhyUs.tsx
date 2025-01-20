@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const WhyUs = () => {
   return (
-    <div className="bg-black text-white p-8">
+    <div className="bg-[#851711] text-white p-8">
       <div className="container mx-auto py-20 flex flex-col-reverse md:flex-row gap-6">
         <div className="grid grid-cols-1 gap-8 mt-4">
           {featureslist.map((feature, index) => (
@@ -31,7 +31,7 @@ export const WhyUs = () => {
           </h1>
           <div className=" w-full h-[300px] lg:w-[600px] lg:h-[450px] relative">
             <Image
-              src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358223/edutech/Frame_1000003558-1_cnfri4.png"
+              src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371047/edutech/Frame_1000003558_e5orsr.png"
               alt="Students Learning"
               fill
             />

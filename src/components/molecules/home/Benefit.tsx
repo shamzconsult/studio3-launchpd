@@ -32,7 +32,7 @@ export const Benefit = () => {
         className="py-32 mt-16 bg-cover bg-center relative flex items-center justify-center "
         style={{
           backgroundImage:
-            "url('https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355906/edutech/Header_Text_yovxn7.png')",
+            "url('https://res.cloudinary.com/dcgghkk7q/image/upload/v1737375235/edutech/Header_Text_toijhd.png')",
         }}
       >
         <div className="relative text-center">

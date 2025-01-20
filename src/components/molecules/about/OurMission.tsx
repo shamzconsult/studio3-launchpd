@@ -36,9 +36,9 @@ export const OurMission = () => {
         <div className="w-full md:h-[400px] h-[300px] relative lg:hidden">
           <Image src={images[0].src} fill alt="student" />
         </div>
-        <section className="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <section className="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden">
           {images.map((image, index) => (
-            <div key={index} className="w-[500px] h-[280px] relative">
+            <div key={index} className="lg:w-[400px] h-[280px] relative">
               <Image src={image.src} fill alt="student" />
             </div>
           ))}

@@ -23,9 +23,9 @@ export const ExploreCourses = () => {
         {explorecourses.map((course, index) => (
           <div
             key={index}
-            className="rounded-lg overflow-hidden border border-[#E3E3E3] lg:w-[500px] p-3"
+            className="rounded-lg overflow-hidden border border-[#E3E3E3] lg:w-[400px] p-3"
           >
-            <div className="lg:w-[480px] h-[250px] relative  mx-auto">
+            <div className="lg:w-[400px] h-[250px] relative  mx-auto">
               <Image src={course.image} alt={course.title} fill />
             </div>
             <div className="p-4">

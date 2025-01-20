@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { VscMenu } from "react-icons/vsc";
 import { navLinks } from "@/const/links";
@@ -11,18 +11,25 @@ import { usePathname } from "next/navigation";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleLinkClick = () => {
     setIsOpen(false);
   };
 
+  if (!mounted) {
+    return null;
+  }
   return (
     <nav
       className={`${
         isOpen ? "h-screen" : ""
-      } bg-white  font-medium w-full fixed  top-0 z-50 text-black py-4`}
+      } bg-white   font-medium w-full fixed  top-0 z-50 text-black py-4 px-2 md:px-4`}
     >
-      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="container mx-auto  py-3 flex items-center justify-between">
         <div onClick={handleLinkClick}>
           <Logo />
         </div>
@@ -45,7 +52,7 @@ export const Navbar = () => {
         <div
           className={`${
             isOpen
-              ? "flex flex-col  w-full justify-center space-y-3 px-2 "
+              ? "flex flex-col  w-full justify-center space-y-3 px-4 "
               : "hidden"
           }  md:flex md:flex-row md:space-x-6  absolute md:static top-16 left-0 w-full bg-white md:w-auto md:top-auto md:bg-transparent py-4 md:py-0`}
         >

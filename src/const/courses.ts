@@ -86,19 +86,19 @@ export const availablecourses = [
 export const tutors = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358228/edutech/Frame_1000003618_gyx1fe.png",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
     name: "Helen Young",
     role: "UX Write - Google",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358228/edutech/Frame_1000003618_gyx1fe.png",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
     name: "Helen Young",
     role: "Tutor",
   },
   {
     id: 3,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358228/edutech/Frame_1000003618_gyx1fe.png",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
     name: "Helen Young",
     role: "UX Write - Google",
   },
