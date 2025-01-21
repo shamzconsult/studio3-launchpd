@@ -2,12 +2,12 @@ import { faqData } from "@/const/faqs";
 import { useState } from "react";
 
 export const FAQ = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const [showAll, setShowAll] = useState(false);
 
   const displayedFAQs = showAll ? faqData : faqData.slice(0, 3);
 
-  const toggleExpand = (index: any) => {
+  const toggleExpand = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
@@ -26,7 +26,7 @@ export const FAQ = () => {
             >
               <span className="font-semibold ">{faq.question}</span>
               <span className="font-bold">
-                {expandedIndex === index ? "∧" : "∨"}
+                {expandedIndex === index ? "∧" : "v"}
               </span>
             </button>
             {expandedIndex === index && (

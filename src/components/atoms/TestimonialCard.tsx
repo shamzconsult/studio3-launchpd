@@ -19,7 +19,9 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {visibleTestimonials.map((testimonial, index) => (
           <div key={index} className="p-6 border rounded-lg shadow-sm ">
-            <p className="text-[#747474] mb-4">"{testimonial.message}"</p>
+            <p className="text-[#747474] mb-4">
+              &quot; {testimonial.message} &quot;
+            </p>
             <div className="flex items-center mt-4">
               <div className="w-12 h-12 rounded-full mr-4">
                 <Image

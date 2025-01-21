@@ -13,9 +13,9 @@ export const ExploreCourses = () => {
         </div>
         <p className="max-w-xl">
           We offer a diverse range of courses tailored to equip you with the
-          skills and knowledge needed to thrive in today’s fast-paced world.
-          Whether you're a beginner or a seasoned professional, our courses are
-          designed to help you achieve your learning goals.
+          skills and knowledge needed to thrive in today&rdquo;s fast-paced
+          world. Whether you're a beginner or a seasoned professional, our
+          courses are designed to help you achieve your learning goals.
         </p>
       </section>
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const WhyUs = () => {
   return (
-    <div className="bg-[#851711] text-white p-8">
+    <div className="bg-black text-white p-8">
       <div className="container mx-auto py-20 flex flex-col-reverse md:flex-row gap-6">
         <div className="grid grid-cols-1 gap-8 mt-4">
           {featureslist.map((feature, index) => (
