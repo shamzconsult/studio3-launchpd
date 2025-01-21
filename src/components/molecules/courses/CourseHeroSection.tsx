@@ -16,7 +16,7 @@ export const CourseHeroSection = () => {
         </div>
         <div className="relative w-full h-[300px] lg:w-[750px]  lg:h-[500px] md:mt-12">
           <Image
-            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737463087/edutech/edutech-new/Frame_1000003558_e6wgcf.png"
+            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737466482/edutech/Frame_1000003558_1_zdouf1.png"
             alt="Students Learning"
             fill
           />
