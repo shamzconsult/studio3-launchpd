@@ -4,15 +4,15 @@ export const OurMission = () => {
   const images = [
     {
       id: 1,
-      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358224/edutech/Frame_1000003609_uwvnab.png",
+      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464191/edutech/edutech-new/Frame_1000003609_depv5f.png",
     },
     {
       id: 2,
-      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358226/edutech/Frame_1000003613_u6xfow.png",
+      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464191/edutech/edutech-new/Frame_1000003613_zjydbo.png",
     },
     {
       id: 3,
-      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737358226/edutech/Frame_1000003613_u6xfow.png",
+      src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464191/edutech/edutech-new/Frame_1000003613_zjydbo.png",
     },
   ];
   return (

@@ -16,7 +16,7 @@ export const Benefit = () => {
             key={index}
             className="p-6 bg-[#FBE9E8] rounded-lg flex flex-col gap-3"
           >
-            <div className="text-[#DA251C] text-3xl  bg-[#FFD0CD] p-3 w-fit">
+            <div className="text-[#DA251C] text-3xl  bg-white rounded-full p-3 w-fit">
               {typeof benefit.icon === "string" ? (
                 benefit.icon
               ) : (

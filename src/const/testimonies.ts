@@ -6,7 +6,7 @@ export const testimonials = [
     name: "Inengite Bozimo",
     role: "UX Designer",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355715/edutech/Avatar-1_l1trqs.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const testimonials = [
     name: "Babajide Ige",
     role: "Social Media Manager",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355715/edutech/Avatar-2_obyjpu.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar_niocdx.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const testimonials = [
     name: "Rahma Jibrin",
     role: "Full-Stack Developer",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355715/edutech/Avatar-1_l1trqs.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const testimonials = [
     name: "Chinwe Okeke",
     role: "Product Manager",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355715/edutech/Avatar-2_obyjpu.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar_niocdx.png",
   },
   {
     id: 5,
@@ -42,6 +42,6 @@ export const testimonials = [
     name: "Musa Bello",
     role: "Data Scientist",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355715/edutech/Avatar-1_l1trqs.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
   },
 ];

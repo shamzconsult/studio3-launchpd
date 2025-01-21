@@ -5,7 +5,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355716/edutech/unsplash_JKUTrJ4vK00_adyqqs.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355717/edutech/unsplash_JKUTrJ4vK00-1_iylyw6.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355717/edutech/unsplash_JKUTrJ4vK00-2_e3xpst.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-2_bz6ah7.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355718/edutech/unsplash_JKUTrJ4vK00-3_ozizkl.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355716/edutech/unsplash_JKUTrJ4vK00-5_qgimhw.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-4_navtcu.png",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const courses = [
     duration: "3 months",
     price: "40,000/month",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737355716/edutech/unsplash_JKUTrJ4vK00-5_qgimhw.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-4_navtcu.png",
   },
 ];
 

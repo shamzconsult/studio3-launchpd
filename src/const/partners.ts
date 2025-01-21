@@ -1,7 +1,7 @@
 export const partners = [
   {
     id: 1,
-    src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1736835977645/f6dd4e6b-2381-4124-8fb5-03a3c9864ec3.png",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737461702/edutech/Frame_1_crcm5d.png",
     alt: "GTB",
   },
   {
