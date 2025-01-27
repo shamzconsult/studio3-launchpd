@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Open Sans"],
+        heading: ["Outfit"],
+      },
       screens: {
         xs: "320px",
         sm: "640px",

@@ -11,20 +11,20 @@ export type BenefitType = {
 export const benefits: BenefitType[] = [
   {
     icon: FaGraduationCap,
-    title: "Affordable Education",
+    title: "Affordable and Accessible Education",
     description:
-      "We offer a variety of subjects and skills to empower your educational journey without heavy expenses removing financial barriers to valuable learning.",
+      "Access high-quality courses at a low cost, removing financial barriers to valuable learning. Our platform offers a variety of subjects and skills to empower your educational journey without heavy expenses.",
   },
   {
     icon: PiCertificateBold,
-    title: "Industry-Recognized Certifications",
+    title: "Affordable and Accessible Education",
     description:
-      "Earn valuable credentials that enhance your resume, effectively demonstrate your expertise and skills to potential employers, setting you apart in a competitive job market.",
+      "Access high-quality courses at a low cost, removing financial barriers to valuable learning. Our platform offers a variety of subjects and skills to empower your educational journey without heavy expenses.",
   },
   {
     icon: PiCirclesThreeBold,
-    title: "Personalized Learning Paths",
+    title: "Affordable and Accessible Education",
     description:
-      "We tailor educational courses to match your career goals and current skills, providing a personalized learning experience to help you reach your professional objectives.",
+      "Access high-quality courses at a low cost, removing financial barriers to valuable learning. Our platform offers a variety of subjects and skills to empower your educational journey without heavy expenses.",
   },
 ];

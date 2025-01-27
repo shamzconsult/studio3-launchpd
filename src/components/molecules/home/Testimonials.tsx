@@ -5,7 +5,7 @@ export const Testimonials = () => {
   return (
     <section className="py-20 px-6 max-w-6xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">Testimonial</h2>
+        <h1 className="text-3xl font-bold">Testimonial</h1>
       </div>
 
       <div className="mb-12">

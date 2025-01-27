@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --font-openSans: "Open Sans";
+  --font-outfit: "Outfit";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,9 +17,15 @@
 }
 
 body {
+  @apply font-sans;
+  font-family: var(--font-openSans);
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  @apply font-heading;
+  font-family: var(--font-outfit);
 }
 
 @layer components {

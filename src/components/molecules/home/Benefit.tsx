@@ -1,33 +1,13 @@
-import { benefits } from "@/const/benefits";
+import { BenefitCards } from "@/components/atoms/BenefitCards";
 
 export const Benefit = () => {
   return (
     <section className="py-20">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">Benefits</h2>
-        <p className="mt-2 text-xl">
-          Some of the benefits of learning with us.
-        </p>
-      </div>
+      <BenefitCards
+        header="Benefits"
+        subheader="Some of the benefits of learning with us."
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-        {benefits.map((benefit, index) => (
-          <div
-            key={index}
-            className="p-6 bg-[#FBE9E8] rounded-lg flex flex-col gap-3"
-          >
-            <div className="text-[#DA251C] text-3xl  bg-white rounded-full p-3 w-fit">
-              {typeof benefit.icon === "string" ? (
-                benefit.icon
-              ) : (
-                <benefit.icon />
-              )}
-            </div>
-            <h3 className="text-xl font-semibold ">{benefit.title}</h3>
-            <p className="">{benefit.description}</p>
-          </div>
-        ))}
-      </div>
       <div
         className="py-32 mt-16 bg-cover bg-center relative flex items-center justify-center "
         style={{
