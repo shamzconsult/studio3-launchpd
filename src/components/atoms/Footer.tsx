@@ -56,7 +56,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-red-500">
+                <a href="/contact" className="hover:text-red-500">
                   Contact us
                 </a>
               </li>
@@ -113,7 +113,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-red-500">
+                <a href="/contact" className="hover:text-red-500">
                   Contact us
                 </a>
               </li>

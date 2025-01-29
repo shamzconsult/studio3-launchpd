@@ -14,7 +14,7 @@ export const PartnerPage = () => {
           subheader="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         />
       </div>
-      <PartnerForm />
+      <PartnerForm header="Learn more about partnering with us" />
     </div>
   );
 };
