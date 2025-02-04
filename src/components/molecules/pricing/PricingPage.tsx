@@ -7,6 +7,7 @@ import { partners } from "@/const/partners";
 import FAQ from "@/components/atoms/FAQs";
 import { Help } from "@/components/atoms/Help";
 import { Testimonials } from "../home/Testimonials";
+import { priceFAQ } from "@/const/faqs";
 
 export const PricingPage = () => {
   return (
@@ -19,7 +20,7 @@ export const PricingPage = () => {
         subheader="Hey there! Want to level up? Join our EdTech crew today!"
         logos={partners}
       />
-      <FAQ />
+      <FAQ faqData={priceFAQ} />
       <Help />
     </div>
   );

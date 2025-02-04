@@ -3,8 +3,8 @@ import React from "react";
 export const JoinUs = () => {
   return (
     <div className="py-20 bg-[#FAFAFA] px-4">
-      <div className="bg-black text-white py-16 px-10 rounded-lg shadow-md text-center container mx-auto">
-        <h1 className="text-2xl md:text-6xl font-bold leading-tight">
+      <div className="bg-black text-white py-16 px-10 rounded-lg shadow-md text-center max-w-6xl mx-auto">
+        <h1 className="text-2xl md:text-5xl font-bold leading-tight">
           Train, Empower, Equip, Build
         </h1>
         <p className="text-[#FAFAFA] max-w-xl mx-auto mt-4">

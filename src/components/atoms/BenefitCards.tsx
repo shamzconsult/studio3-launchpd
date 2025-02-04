@@ -8,7 +8,7 @@ export const BenefitCards = ({
   subheader: string;
 }) => {
   return (
-    <div>
+    <div className="px-4 lg:px-0">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold"> {header}</h2>
         <p className="mt-2 text-xl">{subheader}</p>

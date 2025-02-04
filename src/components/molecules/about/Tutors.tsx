@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export const Tutors = () => {
   return (
-    <div className="container mx-auto py-20 px-4">
+    <div className="max-w-6xl mx-auto py-20 px-4">
       <p className=" font-thin">EXPERT TUTORS</p>
-      <h1 className="mt-3 text-2xl md:text-4xl  lg:text-6xl leading-normal md:leading-relaxed lg:leading-[80px]  font-bold  max-w-3xl">
-        At Studio3 Launchpad
+      <h1 className="mt-3 text-2xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold  max-w-3xl">
+        Learn form Industry Experts
       </h1>
-      <p className="mt-3">
+      <p className="mt-3 max-w-4xl">
         We are bridging the gap between potential and achievement by offering
         immersive, hands-on learning experiences that prepare learners for
         real-world challenges in the tech industry. We offer structured,
@@ -19,9 +19,9 @@ export const Tutors = () => {
         {tutors.map((tutor, index) => (
           <div
             key={index}
-            className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[400px] "
+            className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[360px] "
           >
-            <div className=" w-full lg:w-[400px] h-[300px] relative">
+            <div className=" w-full  h-[300px] relative">
               <Image src={tutor.src} alt="tutor" fill />
             </div>
             <div className="p-4">

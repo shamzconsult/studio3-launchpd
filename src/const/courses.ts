@@ -106,6 +106,7 @@ export const tutors = [
 
 export const explorecourses = [
   {
+    id: 1,
     title: "Software Engineering",
     description:
       "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
@@ -113,6 +114,7 @@ export const explorecourses = [
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359859/edutech/Frame_1000003576_jgvayo.png",
   },
   {
+    id: 2,
     title: "Data Science and AI",
     description:
       "Explore data analysis, machine learning, and AI to solve complex problems with data-driven insights.",
@@ -120,6 +122,7 @@ export const explorecourses = [
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-1_uiufvx.png",
   },
   {
+    id: 3,
     title: "Product Management",
     description:
       "Develop the expertise to lead cross-functional teams, define product visions, and deliver market-ready solutions.",
@@ -127,6 +130,7 @@ export const explorecourses = [
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-2_jas1ho.png",
   },
   {
+    id: 4,
     title: "Data Analytics",
     description:
       "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
@@ -134,6 +138,7 @@ export const explorecourses = [
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-1_uiufvx.png",
   },
   {
+    id: 5,
     title: "Cybersecurity",
     description:
       "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
@@ -141,6 +146,7 @@ export const explorecourses = [
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359862/edutech/image_eipcej.png",
   },
   {
+    id: 6,
     title: "Product Marketing",
     description:
       "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",

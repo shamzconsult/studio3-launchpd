@@ -6,7 +6,7 @@ import { Instagram } from "../icons/Instagram";
 export const Footer = () => {
   return (
     <footer className="mt-20 md:mt-32 bg-white">
-      <div className="container mx-auto md:px-6 py-4">
+      <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="flex flex-col gap-3">
             <div className="relative h-[39px] w-[166px]">
@@ -97,6 +97,11 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-gray-800 mb-4">Resources</h4>
             <ul className="space-y-5 text-gray-600">
+              <li>
+                <a href="/finance" className="hover:text-red-500">
+                  Financial Aid
+                </a>
+              </li>
               <li>
                 <a href="/partner" className="hover:text-red-500">
                   Partnership

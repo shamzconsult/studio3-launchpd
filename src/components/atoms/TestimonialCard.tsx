@@ -12,7 +12,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
     ? testimonials
     : testimonials.slice(0, 3);
   return (
-    <div className="max-w-6xl mx-auto px-6">
+    <div className="max-w-6xl mx-auto px-6 lg:px-0">
       {title && (
         <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
       )}

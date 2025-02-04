@@ -3,7 +3,7 @@ import { availablecourses } from "@/const/courses";
 
 export const AvailableCourses = () => {
   return (
-    <section className="container mx-auto py-20 px-4">
+    <section className="container mx-auto py-20 px-1">
       <div className="mb-4">
         <h2 className="text-2xl font-bold text-center mb-2">
           Courses Available

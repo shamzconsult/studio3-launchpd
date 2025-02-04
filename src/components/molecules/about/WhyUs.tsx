@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export const WhyUs = () => {
   return (
-    <div className="bg-black text-white p-8">
-      <div className="container mx-auto py-20 flex flex-col-reverse md:flex-row gap-6">
+    <div className="bg-black text-white p-8 ">
+      <div className="max-w-6xl mx-auto py-20 flex flex-col-reverse md:flex-row lg:gap-16 gap-6">
         <div className="grid grid-cols-1 gap-8 mt-4">
           {featureslist.map((feature, index) => (
             <div
               key={index}
-              className="flex flex-col gap-1 lg:flex-row items-start "
+              className="flex flex-col gap-2 lg:flex-row items-start "
             >
               <div className="flex-shrink-0">
                 <span className="flex items-center justify-center w-10 h-10 bg-white rounded-full text-black">
@@ -26,7 +26,7 @@ export const WhyUs = () => {
         </div>
         <div className="flex flex-col gap-3">
           <p className=" text-[#FAFAFA]"> WHY CHOOSE STUDIO3 LAUNCHPAD</p>
-          <h1 className="text-2xl md:text-5xl  lg:text-6xl leading-normal md:leading-relaxed lg:leading-[80px]  font-bold mb-4 max-w-3xl">
+          <h1 className="text-2xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 max-w-2xl">
             A blend of theoretical knowledge and practical applications.
           </h1>
           <div className=" w-full h-[300px] lg:w-[600px] lg:h-[450px] relative">

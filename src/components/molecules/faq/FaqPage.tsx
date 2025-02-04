@@ -3,16 +3,17 @@
 import FAQ from "@/components/atoms/FAQs";
 import { Help } from "@/components/atoms/Help";
 import { SearchIcon } from "@/components/icons/SearchIcon";
+import { faqData } from "@/const/faqs";
 
 export const FaqPage = () => {
   return (
     <div>
       <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20">
-        <div className="container mx-auto py-14">
-          <h1 className="text-2xl md:text-6xl font-bold leading-tight">
+        <div className="max-w-6xl mx-auto py-14">
+          <h1 className="text-2xl md:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
           </h1>
-          <p className="text-gray-600 mt-4 font-medium">
+          <p className="text-gray-600 mt-4 font-medium max-w-sm">
             Empowering learners and teachers alike. Discover the path to success
             with us!
           </p>
@@ -24,13 +25,13 @@ export const FaqPage = () => {
               <input
                 type="text"
                 placeholder="Type your questions here..."
-                className="w-full bg-inherit py-3 px-8 rounded border border-[#9D9D9D] shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
+                className="w-full lg:w-[80%] bg-inherit py-3 px-8 rounded border border-[#9D9D9D] shadow-sm focus:outline-none focus:ring-2 focus:ring-red-300"
               />
             </div>
           </div>
         </div>
       </section>
-      <FAQ />
+      <FAQ faqData={faqData} />
       <Help />
     </div>
   );

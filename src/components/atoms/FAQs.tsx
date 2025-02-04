@@ -1,7 +1,12 @@
-import { faqData } from "@/const/faqs";
 import { useState } from "react";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-export const FAQ = () => {
+type FAQItem = {
+  question: string;
+  answer: string;
+};
+
+export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const [showAll, setShowAll] = useState(false);
 
@@ -26,7 +31,11 @@ export const FAQ = () => {
             >
               <span className="font-semibold ">{faq.question}</span>
               <span className="font-bold">
-                {expandedIndex === index ? "∧" : "v"}
+                {expandedIndex === index ? (
+                  <MdKeyboardArrowUp size={24} />
+                ) : (
+                  <MdKeyboardArrowDown size={24} />
+                )}
               </span>
             </button>
             {expandedIndex === index && (

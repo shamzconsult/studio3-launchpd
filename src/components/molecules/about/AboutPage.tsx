@@ -9,6 +9,7 @@ import { Tutors } from "./Tutors";
 import { WhyUs } from "./WhyUs";
 import { partners } from "@/const/partners";
 import { Carousel } from "@/components/atoms/Carousel";
+import { aboutFAQ } from "@/const/faqs";
 
 export const AboutPage = () => {
   return (
@@ -19,7 +20,7 @@ export const AboutPage = () => {
       <AvailableCourses />
       <WhyUs />
       <Tutors />
-      <FAQ />
+      <FAQ faqData={aboutFAQ} />
       <Carousel title="Our Partners" logos={partners} />
     </div>
   );
