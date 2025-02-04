@@ -8,5 +8,5 @@ export default async function Page({
 }) {
   const { id } = await getDynamicParams(params);
 
-  return <PreviewCourse />;
+  return <PreviewCourse id={id} />;
 }

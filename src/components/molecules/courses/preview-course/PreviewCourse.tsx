@@ -13,7 +13,10 @@ const getRandomCourses = (courses: Course[], num: number) => {
   return shuffled.slice(0, num);
 };
 
-export const PreviewCourse = async () => {
+export const PreviewCourse = async ({ id }: { id: number }) => {
+  const courseData = explorecourses.find((course) => course.id === id);
+  console.log(courseData);
+
   const topThreeCourses = getRandomCourses(explorecourses, 3);
 
   return (
