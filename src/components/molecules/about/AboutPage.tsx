@@ -9,9 +9,11 @@ import { Tutors } from "./Tutors";
 import { WhyUs } from "./WhyUs";
 import { partners } from "@/const/partners";
 import { Carousel } from "@/components/atoms/Carousel";
-import { aboutFAQ } from "@/const/faqs";
+import { generalFAQ } from "@/const/faqs";
+import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 export const AboutPage = () => {
+  const aboutFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "about");
   return (
     <div>
       <AboutHeroSection />
@@ -20,7 +22,7 @@ export const AboutPage = () => {
       <AvailableCourses />
       <WhyUs />
       <Tutors />
-      <FAQ faqData={aboutFAQ} />
+      <FAQ faqData={aboutFAQQuestions} />
       <Carousel title="Our Partners" logos={partners} />
     </div>
   );

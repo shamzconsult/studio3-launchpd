@@ -3,10 +3,11 @@ import { CourseAudience } from "./CourseAudience";
 import { LearningOutcomes } from "./LearningOutcomes";
 import { PreviewHero } from "./PreviewHero";
 import { PricingPlan } from "./PricingPlan";
-import { courseFAQ } from "@/const/faqs";
+import { generalFAQ } from "@/const/faqs";
 import FAQ from "@/components/atoms/FAQs";
 import { Course, CourseCard } from "@/components/atoms/CourseCard";
 import { explorecourses } from "@/const/courses";
+import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 const getRandomCourses = (courses: Course[], num: number) => {
   const shuffled = courses.sort(() => 0.5 - Math.random());
@@ -19,6 +20,8 @@ export const PreviewCourse = async ({ id }: { id: number }) => {
 
   const topThreeCourses = getRandomCourses(explorecourses, 3);
 
+  const courseFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "course");
+
   return (
     <div>
       <PreviewHero />
@@ -28,7 +31,7 @@ export const PreviewCourse = async ({ id }: { id: number }) => {
       <div className="py-16 lg:py-36">
         <TestimonialCard title="Testimonials" />
       </div>
-      <FAQ faqData={courseFAQ} />
+      <FAQ faqData={courseFAQQuestions} />
       <div className="max-w-6xl mx-auto px-4 py-20 mt-8 lg:px-0">
         <CourseCard
           explorecourses={topThreeCourses}

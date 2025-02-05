@@ -7,9 +7,11 @@ import { partners } from "@/const/partners";
 import FAQ from "@/components/atoms/FAQs";
 import { Help } from "@/components/atoms/Help";
 import { Testimonials } from "../home/Testimonials";
-import { priceFAQ } from "@/const/faqs";
+import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
+import { generalFAQ } from "@/const/faqs";
 
 export const PricingPage = () => {
+  const pricingFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "home");
   return (
     <div className="">
       <PricingHeroSection />
@@ -20,7 +22,7 @@ export const PricingPage = () => {
         subheader="Hey there! Want to level up? Join our EdTech crew today!"
         logos={partners}
       />
-      <FAQ faqData={priceFAQ} />
+      <FAQ faqData={pricingFAQQuestions} />
       <Help />
     </div>
   );

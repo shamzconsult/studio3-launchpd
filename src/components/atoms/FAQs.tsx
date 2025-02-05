@@ -6,13 +6,14 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 type FAQItem = {
   question: string;
   answer: string;
+  category: string;
 };
 
 export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const [showAll, setShowAll] = useState(false);
 
-  const displayedFAQs = showAll ? faqData : faqData.slice(0, 3);
+  const displayedFAQs = showAll ? faqData : faqData.slice(0, 5);
 
   const toggleExpand = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index);

@@ -6,15 +6,17 @@ import { TeamHero } from "./TeamHero";
 import FAQ from "@/components/atoms/FAQs";
 import { Carousel } from "@/components/atoms/Carousel";
 import { partners } from "@/const/partners";
-import { financeFAQ } from "@/const/faqs";
+import { generalFAQ } from "@/const/faqs";
+import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 export const TeamPage = () => {
+  const financeFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "finance");
   return (
     <div>
       <TeamHero />
       <TeamCard />
       <JoinTeam />
-      <FAQ faqData={financeFAQ} />
+      <FAQ faqData={financeFAQQuestions} />
       <Carousel title="Our Partners" logos={partners} />
     </div>
   );

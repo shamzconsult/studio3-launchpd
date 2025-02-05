@@ -8,9 +8,11 @@ import { Testimonials } from "./Testimonials";
 import { Help } from "@/components/atoms/Help";
 import { Carousel } from "@/components/atoms/Carousel";
 import { partners } from "@/const/partners";
-import { faqData } from "@/const/faqs";
+import { generalFAQ } from "@/const/faqs";
+import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 export default function HomePage() {
+  const homeFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "home");
   return (
     <div className="">
       <HomeHeroSection />
@@ -18,7 +20,7 @@ export default function HomePage() {
       <Courses title="Available Courses" />
       <Carousel title="Where our Alumnis work" logos={partners} />
       <Testimonials />
-      <FAQ faqData={faqData} />
+      <FAQ faqData={homeFAQQuestions} />
       <Help />
     </div>
   );

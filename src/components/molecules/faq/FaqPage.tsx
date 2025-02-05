@@ -1,11 +1,30 @@
 "use client";
 
-import FAQ from "@/components/atoms/FAQs";
+import { FAQButtons, FAQItem } from "@/components/atoms/FAQButtons";
 import { Help } from "@/components/atoms/Help";
 import { SearchIcon } from "@/components/icons/SearchIcon";
-import { faqData } from "@/const/faqs";
+import { generalFAQ } from "@/const/faqs";
+import { useState } from "react";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
 export const FaqPage = () => {
+  const [question, setQuestion] = useState<FAQItem[]>(generalFAQ);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [showAll, setShowAll] = useState(false);
+
+  const toggleExpand = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
+  const choice = (category: string) => {
+    setQuestion(
+      generalFAQ.filter((question) => {
+        return question.category === category;
+      })
+    );
+  };
+
+  const displayedFew = showAll ? question : question.slice(0, 5);
   return (
     <div>
       <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20">
@@ -31,7 +50,55 @@ export const FaqPage = () => {
           </div>
         </div>
       </section>
-      <FAQ faqData={faqData} />
+
+      <section className="py-20 px-6 ">
+        <div className="max-w-4xl mx-auto text-center mb-8 lg:mb-10">
+          <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
+        </div>
+
+        <FAQButtons
+          choice={choice}
+          setQuestion={setQuestion}
+          generalFAQ={generalFAQ}
+        />
+        <div className="max-w-3xl mx-auto space-y-4 px-6 lg:mt-10">
+          {displayedFew.map((faq, index) => (
+            <div
+              key={index}
+              className="border-b border-gray-300 text-[#6A6A6A]"
+            >
+              <button
+                onClick={() => toggleExpand(index)}
+                className="w-full py-4 text-left flex justify-between items-center focus:outline-none"
+              >
+                <span className="font-semibold ">{faq.question}</span>
+                <span className="font-bold">
+                  {expandedIndex === index ? (
+                    <MdKeyboardArrowUp size={24} />
+                  ) : (
+                    <MdKeyboardArrowDown size={24} />
+                  )}
+                </span>
+              </button>
+              {expandedIndex === index && (
+                <div className="pb-4  max-w-2xl">
+                  <p>{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-6 text-center">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="text-[#DA251C] font-medium "
+          >
+            {showAll ? "See Less" : "See More"}
+            <span className="ml-1">{showAll ? "-" : "+"}</span>
+          </button>
+        </div>
+      </section>
       <Help />
     </div>
   );
