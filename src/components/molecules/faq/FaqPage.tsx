@@ -27,7 +27,7 @@ export const FaqPage = () => {
   const displayedFew = showAll ? question : question.slice(0, 5);
   return (
     <div>
-      <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20">
+      <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 ">
         <div className="max-w-6xl mx-auto py-14">
           <h1 className="text-2xl md:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
@@ -51,7 +51,7 @@ export const FaqPage = () => {
         </div>
       </section>
 
-      <section className="py-20 px-6 ">
+      <section className="py-20 px-6 overflow-x-auto">
         <div className="max-w-4xl mx-auto text-center mb-8 lg:mb-10">
           <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
         </div>
@@ -65,13 +65,13 @@ export const FaqPage = () => {
           {displayedFew.map((faq, index) => (
             <div
               key={index}
-              className="border-b border-gray-300 text-[#6A6A6A]"
+              className="border-b border-gray-300 text-[#393939]"
             >
               <button
                 onClick={() => toggleExpand(index)}
                 className="w-full py-4 text-left flex justify-between items-center focus:outline-none"
               >
-                <span className="font-semibold ">{faq.question}</span>
+                <span className="font-bold ">{faq.question}</span>
                 <span className="font-bold">
                   {expandedIndex === index ? (
                     <MdKeyboardArrowUp size={24} />
@@ -81,7 +81,7 @@ export const FaqPage = () => {
                 </span>
               </button>
               {expandedIndex === index && (
-                <div className="pb-4  max-w-2xl">
+                <div className="pb-4 text-[14px]  max-w-2xl">
                   <p>{faq.answer}</p>
                 </div>
               )}

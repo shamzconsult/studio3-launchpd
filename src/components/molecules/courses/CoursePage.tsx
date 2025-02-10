@@ -6,7 +6,7 @@ import { ExploreCourses } from "./ExploreCourses";
 import { ProgramStructure } from "./ProgramStructure";
 import { partners } from "@/const/partners";
 import { TestimonialCard } from "@/components/atoms/TestimonialCard";
-import { JoinUs } from "./JoinUs";
+import { ApplyFinance } from "@/components/atoms/ApplyFinance";
 
 export const CoursePage = () => {
   return (
@@ -18,7 +18,7 @@ export const CoursePage = () => {
       <div className="py-20">
         <TestimonialCard title="Testimonials" />
       </div>
-      <JoinUs />
+      <ApplyFinance />
     </div>
   );
 };

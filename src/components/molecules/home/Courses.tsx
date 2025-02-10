@@ -20,7 +20,7 @@ export const Courses = ({ title }: { title: string }) => {
           {visibleCourses.map((course, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden border border-[#9D9D9D] lg:w-[357px]"
+              className="rounded-lg overflow-hidden border border-[#9D9D9D] lg:w-[357px] hover:shadow-md"
             >
               <div className="relative lg:w-[357px] h-[201px]">
                 <Image src={course.image} alt={course.title} fill />

@@ -12,7 +12,7 @@ export const HomeHeroSection = () => {
           Designed to empower students and educators. Join us on a journey of
           growth!
         </p>
-        <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition">
+        <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md hover:shadow-lg  transition duration-150 ">
           Get Started &rarr;
         </button>
       </div>

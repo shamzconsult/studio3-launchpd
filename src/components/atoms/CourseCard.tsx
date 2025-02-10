@@ -24,7 +24,7 @@ export const CourseCard = ({ explorecourses, header }: ExploreCoursesProps) => {
           <Link
             href={`/courses/${course.id}`}
             key={index}
-            className="rounded-lg overflow-hidden border border-[#E3E3E3] lg:w-[360px] p-3"
+            className="rounded-lg overflow-hidden border border-[#E3E3E3] lg:w-[360px] p-3 hover:shadow-md"
           >
             <div className="lg:w-[100%] h-[250px] relative mx-auto">
               <Image src={course.image} alt={course.title} fill />

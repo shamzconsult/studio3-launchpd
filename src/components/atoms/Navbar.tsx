@@ -37,7 +37,7 @@ export const Navbar = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             aria-expanded={isOpen}
-            className="lg:hidden text-3xl focus:outline-none ml-auto"
+            className="lg:hidden text-[24px] focus:outline-none ml-auto"
           >
             {isOpen ? (
               <AiOutlineClose className="text-red-600" />
@@ -49,8 +49,10 @@ export const Navbar = () => {
 
         <div
           className={`${
-            isOpen ? "flex flex-col items-start px-1 gap-3 mt-4" : "hidden"
-          } lg:flex lg:flex-row items-center lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white lg:w-auto lg:bg-transparent py-4 md:py-0`}
+            isOpen
+              ? "flex flex-col justify-start items-start  gap-5 px-4 "
+              : "hidden"
+          } lg:flex lg:flex-row lg:items-center lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white lg:w-auto lg:bg-transparent py-4 md:py-0`}
         >
           {navLinks.map((link) => (
             <div key={link.label} className="relative">
@@ -64,15 +66,13 @@ export const Navbar = () => {
                     <span className="py-2 px-3 cursor-pointer hover:text-red-600 transition duration-150 ease-in-out text-[#393939]">
                       {link.label}
                     </span>
-                    <span>
+                    <span className="cursor-pointer">
                       <MdArrowDropDown />
                     </span>
                   </div>
                   <div
-                    className={`absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg transition-all duration-300 ${
-                      dropdownOpen
-                        ? "opacity-100 visible"
-                        : "opacity-0 invisible"
+                    className={`absolute left-0 mt- w-48 bg-white shadow-lg rounded-lg transition-all duration-300 ${
+                      dropdownOpen ? "opacity-100 z-10 " : "opacity-0 invisible"
                     }`}
                   >
                     {link.children.map((child) => (
@@ -90,8 +90,10 @@ export const Navbar = () => {
               ) : (
                 <Link
                   href={link.url}
-                  className={`py-2 px-3 hover:text-red-600 transition duration-150 ease-in-out text-[#393939] ${
-                    pathname === link.url ? "underline text-[#DA251C]" : ""
+                  className={`py-2 px-3 hover:text-[#851711] transition duration-150 ease-in-out text-[#393939] ${
+                    pathname === link.url
+                      ? "underline text-[#851711] underline-offset-8"
+                      : ""
                   }`}
                   onClick={handleLinkClick}
                 >
@@ -101,15 +103,18 @@ export const Navbar = () => {
             </div>
           ))}
 
-          <div className="lg:hidden w-fit px-2" onClick={handleLinkClick}>
-            <button className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]">
+          <div
+            className="lg:hidden w-full px-2 text-center"
+            onClick={handleLinkClick}
+          >
+            <button className="flex justify-center w-full items-center text-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]">
               Enroll Now &rarr;
             </button>
           </div>
         </div>
 
         <div className="hidden lg:flex">
-          <button className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]">
+          <button className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C] hover:bg-slate-100 hover:border-red-500 duration-150">
             Enroll Now &rarr;
           </button>
         </div>
