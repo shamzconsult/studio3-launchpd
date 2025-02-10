@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const FinanceHero = () => {
   return (
-    <div className="w-full lg:py-20 ">
-      <section className="max-w-6xl bg-[#851711] rounded-lg  mx-auto   flex flex-col  lg:flex-row justify-between lg:items-center mt-32 w-full ">
+    <div className="w-full lg:py-20  px-4 lg:px-0">
+      <section className="max-w-6xl bg-[#851711] rounded-lg  mx-auto   flex flex-col  lg:flex-row justify-between lg:items-center mt-32 w-full  ">
         <div className="max-w-xl  text-[#FAFAFA] lg:w-1/2 h-inherit p-6 rounded-l">
           <h1 className="text-3xl  md:text-4xl font-extrabold leading-normal md:leading-[40px] mb-4">
             Financial Aid: A step to your future

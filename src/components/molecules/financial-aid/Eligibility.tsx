@@ -4,7 +4,7 @@ import React from "react";
 export const Eligibility = () => {
   return (
     <div className="bg-[#FBE9E8]">
-      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-20 ">
+      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-20 px-4 lg:px-0">
         <div className="relative lg:w-[560px] h-[374px]  ">
           <Image
             src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1738565030/edutech/Frame_1000003601_xd0srm.png"
@@ -20,7 +20,7 @@ export const Eligibility = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             convallis lorem in ante feugiat, ac vehicula
           </p>
-          <ul className=" list-disc lg:px-8 flex flex-col gap-2">
+          <ul className=" list-disc lg:px-8 flex flex-col gap-2 px-4 ">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
