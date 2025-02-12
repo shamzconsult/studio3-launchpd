@@ -1,4 +1,3 @@
-import { EyeIcon } from "@/components/icons/EyeIcon";
 import { features } from "@/const/features";
 
 export const Approach = () => {

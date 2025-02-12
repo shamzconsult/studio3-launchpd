@@ -1,4 +1,3 @@
-import { EyeIcon } from "@/components/icons/EyeIcon";
 import { featureslist } from "@/const/features";
 import Image from "next/image";
 
