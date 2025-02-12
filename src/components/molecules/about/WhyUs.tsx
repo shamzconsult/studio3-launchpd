@@ -13,8 +13,12 @@ export const WhyUs = () => {
               className="flex flex-col gap-2 lg:flex-row items-start "
             >
               <div className="flex-shrink-0">
-                <span className="flex items-center justify-center w-10 h-10 bg-white rounded-full text-black">
-                  <EyeIcon className="lg:h-8 lg:w-8" />
+                <span className="flex items-center justify-center w-10 h-10 bg-[#EEEEEE] rounded-full text-black">
+                  {typeof feature.icon === "string" ? (
+                    feature.icon
+                  ) : (
+                    <feature.icon className="h-6 w-6" />
+                  )}
                 </span>
               </div>
               <div className="">

@@ -61,104 +61,99 @@ export const generalFAQ = [
   },
   {
     category: "price",
+    question: "How much do courses cost?",
+    answer:
+      "Course pricing varies. We offer free courses, individual paid courses, and subscription-based plans for unlimited access.",
+  },
+  {
+    category: "price",
+    question: "Do you offer a free trial?",
+    answer:
+      "Yes, we offer a free trial period for our subscription plans, allowing you to explore the platform before committing.",
+  },
+  {
+    category: "price",
+    question: "Are there any hidden fees?",
+    answer:
+      "No, our pricing is transparent. You only pay for the courses or subscription plan you choose, with no hidden charges.",
+  },
+  {
+    category: "price",
+    question: "Do you offer refunds?",
+    answer:
+      "Yes, we offer a refund policy within [X] days of purchase. Please check our refund policy for more details.",
+  },
+  {
+    category: "price",
+    question:
+      "Can I switch from a one-time payment course to a subscription plan?",
+    answer:
+      "Yes, you can upgrade to a subscription plan anytime to access more courses.",
+  },
+  {
+    category: "finance",
+    question: "Do you offer financial aid or scholarships?",
+    answer:
+      "Yes, we offer financial aid and scholarship programs for eligible learners. You can apply through our financial aid page.",
+  },
+  {
+    category: "finance",
+    question: "How do I apply for financial aid?",
+    answer:
+      "Fill out the financial aid application form on our website, providing details about your need for assistance.",
+  },
+  {
+    category: "finance",
+    question: "Who is eligible for financial aid?",
+    answer:
+      "Financial aid is available for students, low-income individuals, and those facing financial hardship. Eligibility is determined based on application review.",
+  },
+  {
+    category: "finance",
+    question: "Can I apply for financial aid on multiple courses?",
+    answer:
+      "Yes, but each course requires a separate financial aid application.",
+  },
+  {
+    category: "finance",
+    question: "How long does it take to get approved for financial aid?",
+    answer:
+      "Applications are typically reviewed within 7–14 days, and you will receive an email notification about your approval status.",
+  },
+  {
+    category: "home",
     question: "Can I pay on instalments?",
     answer:
-      "Yes, we offer instalment payment options for our courses.we offer instalment payment options for our courses.we offer instalment payment options for our courses. we offer instalment payment options for our courses.we offer instalment payment options for our courses.",
+      "Yes, you can pay in installments! We offer flexible payment plans to help you manage your budget. Simply choose the installment option at checkout, and you'll be able to spread the cost over several months. If you have any questions about the process, feel free to reach out to our support team!.",
   },
   {
-    category: "price",
-    question: "Do I get a certificate after completion?",
+    category: "home",
+    question: "Who are the instructors on your platform?",
     answer:
-      "Yes, you will receive an industry-recognized certificate upon completing the course.",
+      "Our instructors are industry experts, educators, and professionals with extensive experience in their respective fields..",
   },
   {
-    category: "price",
+    category: "home",
+    question: "How much do courses cost?",
+    answer:
+      "Course pricing varies. We offer financial aids individual paid courses, and subscription-based plans for unlimited access.",
+  },
+  {
+    category: "home",
+    question: "Who is eligible for financial aid?",
+    answer:
+      "Financial aid is available for students, low-income individuals, and those facing financial hardship. Eligibility is determined based on application review.",
+  },
+  {
+    category: "home",
+    question: "What types of courses do you offer?",
+    answer:
+      "We offer a wide range of courses in fields such as technology, business, design, healthcare, and personal development.",
+  },
+  {
+    category: "home",
     question: "Are the courses self-paced?",
     answer:
-      "Most of our courses are self-paced, allowing you to learn at your own convenience. we offer instalment payment options for our courses.we offer instalment payment options for our courses.",
-  },
-  {
-    category: "price",
-    question: "Do I need prior experience to enroll?",
-    answer:
-      "No prior experience is required. Our courses are designed for beginners.",
-  },
-  {
-    category: "price",
-    question: "How do I contact support?",
-    answer:
-      "You can contact support via email, phone, or WhatsApp. Our support team is available 24/7.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "finance",
-    question: "Can I pay on instalments?",
-    answer:
-      "Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-  },
-  {
-    category: "home",
-    question: "Can I pay on instalments?",
-    answer:
-      "Yes, we offer instalment payment options for our courses.we offer instalment payment options for our courses.we offer instalment payment options for our courses. we offer instalment payment options for our courses.we offer instalment payment options for our courses.",
-  },
-  {
-    category: "home",
-    question: "Do I get a certificate after completion?",
-    answer:
-      "Yes, you will receive an industry-recognized certificate upon completing the course.",
-  },
-  {
-    category: "home",
-    question: "Are the courses self-paced?",
-    answer:
-      "Most of our courses are self-paced, allowing you to learn at your own convenience. we offer instalment payment options for our courses.we offer instalment payment options for our courses.",
-  },
-  {
-    category: "home",
-    question: "Do I need prior experience to enroll?",
-    answer:
-      "No prior experience is required. Our courses are designed for beginners.",
-  },
-  {
-    category: "home",
-    question: "How do I contact support?",
-    answer:
-      "You can contact support via email, phone, or WhatsApp. Our support team is available 24/7.",
+      "Yes, most of our courses are self-paced, allowing learners to complete them at their convenience. However, some instructor-led programs have set schedules.",
   },
 ];

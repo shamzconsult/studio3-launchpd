@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const CourseHeroSection = () => {
   return (
-    <div className="max-w-6xl mx-auto  px-4 py-20 lg:px-0 lg:mt-20">
+    <div className="max-w-6xl mx-auto  px-6 py-20 lg:px-0 lg:mt-20">
       <section className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="max-w-xl mt-10">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
@@ -16,9 +16,10 @@ export const CourseHeroSection = () => {
         </div>
         <div className="relative w-full  lg:w-[480px]  h-[340px] md:mt-12">
           <Image
-            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737466482/edutech/Frame_1000003558_1_zdouf1.png"
-            alt="Students Learning"
+            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1739345035/edutech/Course_bw3syl.png"
+            alt="Student"
             fill
+            className="rounded-lg"
           />
         </div>
       </section>

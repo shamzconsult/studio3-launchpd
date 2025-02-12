@@ -28,7 +28,7 @@ export const FaqPage = () => {
   return (
     <div>
       <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 ">
-        <div className="max-w-6xl mx-auto py-14">
+        <div className="max-w-6xl mx-auto py-14 px-4 lg:px-0">
           <h1 className="text-2xl md:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
           </h1>

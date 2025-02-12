@@ -1,85 +1,76 @@
+import { GiPencilRuler } from "react-icons/gi";
+import { MdAnalytics, MdOutlineComputer } from "react-icons/md";
+
 export const courses = [
   {
     id: 1,
-    title: "Data Analysis",
-    duration: "3 months",
-    price: "40,000/month",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
-  },
-  {
-    id: 2,
-    title: "Data Analysis",
-    duration: "3 months",
-    price: "40,000/month",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
-  },
-  {
-    id: 3,
-    title: "Data Analysis",
-    duration: "3 months",
-    price: "40,000/month",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-2_bz6ah7.png",
-  },
-  {
-    id: 4,
-    title: "Frontend Development",
-    duration: "3 months",
-    price: "40,000/month",
+    title: "Software Engineering",
+    description:
+      "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
+
     image:
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
   },
   {
-    id: 5,
-    title: "Social Media Management",
-    duration: "3 months",
-    price: "40,000/month",
+    id: 2,
+    title: "Data Science and AI",
+    description:
+      "Explore data analysis, machine learning, and AI to solve complex problems with data-driven insights.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737361069/edutech/unsplash_JKUTrJ4vK00_j6ieud.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
+  },
+  {
+    id: 3,
+    title: "Product Management",
+    description:
+      "Get hands-on experience with product tools, and develop skills to lead cross-functional teams navigate the entire product lifecycle.",
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
+  },
+  {
+    id: 4,
+    title: "Web3 Development",
+    description:
+      "Build the future with web3, master frameworks in  building decentralized applications. ",
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
+  },
+  {
+    id: 5,
+    title: "UI/UX Design",
+    description:
+      "Master the art of intuitive design with hands-on projects in wireframing, prototyping, and user research.",
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
   },
   {
     id: 6,
-    title: "Data Analysis",
-    duration: "3 months",
-    price: "40,000/month",
+    title: "Product Marketing",
+    description:
+      " Learn how to craft compelling product stories, execute data-driven campaigns, and position products for success in competitive markets.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-4_navtcu.png",
-  },
-  {
-    id: 7,
-    title: "Social Media Management",
-    duration: "3 months",
-    price: "40,000/month",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737361069/edutech/unsplash_JKUTrJ4vK00_j6ieud.png",
-  },
-  {
-    id: 8,
-    title: "Data Analysis",
-    duration: "3 months",
-    price: "40,000/month",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-4_navtcu.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359864/edutech/image-1_hqsxdb.png",
   },
 ];
 
 export const availablecourses = [
   {
+    icon: MdOutlineComputer,
     title: "Software Engineering",
     description:
-      "Learn the essentials of software engineering to build and maintain scalable applications.",
+      "Transform your ideas into reality by joining our Software Development track. Gain proficiency in programming languages, and frameworks, software design, and problem-solving techniques as a frontend or backend developer with react js, node js etc.",
   },
   {
-    title: "Data Science and AI",
+    icon: MdAnalytics,
+    title: "Data Analytics",
     description:
-      "Explore the world of data science and AI with hands-on projects and real-world case studies.",
+      "Turn data into actionable insights by joining our Data Analysis track. Learn to collect, clean, and interpret data using tools like Excel, SQL, and Python. Gain hands-on experience in building dashboards and visualizations that drive informed decision-making across industries.",
   },
   {
+    icon: GiPencilRuler,
     title: "Product Management",
     description:
-      "Master the art of product management, from ideation to delivery, with guidance from industry experts.",
+      "Master the art of building great products by joining our Product Management track. Learn to define product strategies, and lead cross-functional teams to deliver impactful solutions. Get hands-on experience with product tools, and develop skills to navigate the entire product lifecycle.",
   },
 ];
 
@@ -101,56 +92,5 @@ export const tutors = [
     src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
     name: "Helen Young",
     role: "UX Write - Google",
-  },
-];
-
-export const explorecourses = [
-  {
-    id: 1,
-    title: "Software Engineering",
-    description:
-      "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359859/edutech/Frame_1000003576_jgvayo.png",
-  },
-  {
-    id: 2,
-    title: "Data Science and AI",
-    description:
-      "Explore data analysis, machine learning, and AI to solve complex problems with data-driven insights.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-1_uiufvx.png",
-  },
-  {
-    id: 3,
-    title: "Product Management",
-    description:
-      "Develop the expertise to lead cross-functional teams, define product visions, and deliver market-ready solutions.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-2_jas1ho.png",
-  },
-  {
-    id: 4,
-    title: "Data Analytics",
-    description:
-      "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359860/edutech/Frame_1000003576-1_uiufvx.png",
-  },
-  {
-    id: 5,
-    title: "Cybersecurity",
-    description:
-      "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359862/edutech/image_eipcej.png",
-  },
-  {
-    id: 6,
-    title: "Product Marketing",
-    description:
-      "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359864/edutech/image-1_hqsxdb.png",
   },
 ];

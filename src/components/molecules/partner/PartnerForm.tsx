@@ -4,7 +4,7 @@ interface PartnerHeader {
 
 export const PartnerForm = ({ header = "" }: PartnerHeader) => {
   return (
-    <div className="max-w-6xl mx-auto py-20  px-4 lg:px-0 ">
+    <div className="max-w-6xl mx-auto py-20  px-6 lg:px-0 ">
       {header && (
         <h1 className="text-2xl font-bold text-center mb-6">{header}</h1>
       )}

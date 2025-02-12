@@ -17,14 +17,14 @@ export const benefits: BenefitType[] = [
   },
   {
     icon: PiCertificateBold,
-    title: "Affordable and Accessible Education",
+    title: "Industry-Recognized Certifications",
     description:
-      "Access high-quality courses at a low cost, removing financial barriers to valuable learning. Our platform offers a variety of subjects and skills to empower your educational journey without heavy expenses.",
+      "Unlock your potential with our affordable, high-quality certification courses . Our platform provides a diverse range of  skills, ensuring you can enhance your career without breaking the bank.",
   },
   {
     icon: PiCirclesThreeBold,
-    title: "Affordable and Accessible Education",
+    title: "Personalized Learning Paths",
     description:
-      "Access high-quality courses at a low cost, removing financial barriers to valuable learning. Our platform offers a variety of subjects and skills to empower your educational journey without heavy expenses.",
+      "We tailor educational courses to match your career goals and current skills, providing a personalized learning experience to help you reach your professional objectives.",
   },
 ];

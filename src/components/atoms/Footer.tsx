@@ -1,7 +1,8 @@
-import Image from "next/image";
+"use client";
 import { Facebook } from "../icons/Facebook";
 import { LinkedIn } from "../icons/LinkedIn";
 import { Instagram } from "../icons/Instagram";
+import { Logo } from "./Logo";
 
 export const Footer = () => {
   return (
@@ -9,13 +10,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="flex flex-col gap-3">
-            <div className="relative h-[39px] w-[166px]">
-              <Image
-                src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737361194/edutech/6_67_dvjnml.png"
-                alt="logo"
-                fill
-              />
-            </div>
+            <Logo />
             <p className="text-sm text-gray-600">
               Empowering learners with quality, accessible, and engaging
               educational resources.

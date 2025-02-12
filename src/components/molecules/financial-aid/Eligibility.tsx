@@ -4,7 +4,7 @@ import React from "react";
 export const Eligibility = () => {
   return (
     <div className="bg-[#FBE9E8]">
-      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-20 px-4 lg:px-0">
+      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-20 px-6 lg:px-0">
         <div className="relative lg:w-[560px] h-[374px]  ">
           <Image
             src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1738565030/edutech/Frame_1000003601_xd0srm.png"

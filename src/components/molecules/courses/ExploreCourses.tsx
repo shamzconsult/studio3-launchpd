@@ -1,9 +1,9 @@
 import { CourseCard } from "@/components/atoms/CourseCard";
-import { explorecourses } from "@/const/courses";
+import { courses } from "@/const/courses";
 
 export const ExploreCourses = () => {
   return (
-    <div className="max-w-6xl mx-auto py-24 px-4 lg:px-0">
+    <div className="max-w-6xl mx-auto py-24 px-6 lg:px-0">
       <section className="flex  flex-col  md:flex-row gap-3 md:gap-16 mb-10">
         <div>
           <p className="mb-2">ExPLORE OUR COURSES</p>
@@ -19,7 +19,7 @@ export const ExploreCourses = () => {
         </p>
       </section>
 
-      <CourseCard explorecourses={explorecourses} />
+      <CourseCard explorecourses={courses} />
     </div>
   );
 };

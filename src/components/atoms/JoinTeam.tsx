@@ -1,6 +1,6 @@
 export const JoinTeam = () => {
   return (
-    <div className=" px-4 lg:px-0 ">
+    <div className=" px-8 lg:px-0 ">
       <section
         className="max-w-6xl mx-auto rounded py-20 my-24  bg-cover bg-center relative flex items-center justify-center "
         style={{

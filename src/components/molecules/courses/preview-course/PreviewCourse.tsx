@@ -6,7 +6,7 @@ import { PricingPlan } from "./PricingPlan";
 import { generalFAQ } from "@/const/faqs";
 import FAQ from "@/components/atoms/FAQs";
 import { Course, CourseCard } from "@/components/atoms/CourseCard";
-import { explorecourses } from "@/const/courses";
+import { courses } from "@/const/courses";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 const getRandomCourses = (courses: Course[], num: number) => {
@@ -15,10 +15,10 @@ const getRandomCourses = (courses: Course[], num: number) => {
 };
 
 export const PreviewCourse = async ({ id }: { id: number }) => {
-  const courseData = explorecourses.find((course) => course.id === id);
+  const courseData = courses.find((course) => course.id === id);
   console.log(courseData);
 
-  const topThreeCourses = getRandomCourses(explorecourses, 3);
+  const topThreeCourses = getRandomCourses(courses, 3);
 
   const courseFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "course");
 

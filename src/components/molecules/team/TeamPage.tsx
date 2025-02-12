@@ -12,7 +12,7 @@ import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 export const TeamPage = () => {
   const financeFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "finance");
   return (
-    <div>
+    <div className="">
       <TeamHero />
       <TeamCard />
       <JoinTeam />

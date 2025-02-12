@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutHeroSection = () => {
   return (
-    <div className="max-w-6xl mx-auto  px-4 py-20 lg:mt-20 lg:px-0">
+    <div className="max-w-6xl mx-auto  px-6 py-20 lg:mt-20 lg:px-0">
       <section className="flex flex-col md:flex-row justify-center items-center gap-4">
         <div className="max-w-xl mt-10">
           <h1 className="text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold  mb-4">

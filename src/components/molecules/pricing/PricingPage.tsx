@@ -11,7 +11,7 @@ import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 import { generalFAQ } from "@/const/faqs";
 
 export const PricingPage = () => {
-  const pricingFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "home");
+  const pricingFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "price");
   return (
     <div className="">
       <PricingHeroSection />

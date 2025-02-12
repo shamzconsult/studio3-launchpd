@@ -21,7 +21,7 @@ export const Carousel = ({
           {header && (
             <h1 className="text-xl font-bold md:text-2xl">{header}</h1>
           )}
-          {subheader && <p className="text-lg">{subheader}</p>}
+          {subheader && <p className="text-lg text-center">{subheader}</p>}
         </div>
         <section className=" flex flex-col md:flex-row justify-center items-center ">
           <h1 className="text-xl font-bold md:text-3xl">{title}</h1>

@@ -1,14 +1,14 @@
 export const Help = () => {
   const handleWhatsAppChat = () => {
-    window.open("https://wa.me/+2348132624679", "_blank");
+    window.open("https://wa.me/+447733366621", "_blank");
   };
 
   const handleCallClick = () => {
-    window.location.href = "tel:+2348132624679";
+    window.location.href = "tel:+447733366621";
   };
 
   const sendEmail = () => {
-    window.location.href = "mailto:eedrisalihsample@gmail.com";
+    window.location.href = "mailto:Info@Studio3launchpad.com";
   };
   return (
     <div className="text-center py-20 bg-red-100">

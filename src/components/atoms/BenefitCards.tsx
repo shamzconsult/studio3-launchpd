@@ -14,7 +14,7 @@ export const BenefitCards = ({
         <p className="mt-2 text-xl">{subheader}</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6 lg:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-3 lg:px-0">
         {benefits.map((benefit, index) => (
           <div
             key={index}
