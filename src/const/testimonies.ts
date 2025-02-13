@@ -11,7 +11,7 @@ export const testimonials = [
   {
     id: 2,
     message:
-      "Completing this program was a transformative journey! The mentors genuinely grasped my aspirations and guided me to reach them. I wholeheartedly endorse it!",
+      "Enrolling in the Product Management course was a game-changer for my career. The training, and mentorship gave me the confidence to transition from a marketing role to a full-fledged product manager.",
     name: "Babajide Ige",
     role: "Social Media Manager",
     image:

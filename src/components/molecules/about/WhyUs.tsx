@@ -12,7 +12,7 @@ export const WhyUs = () => {
               className="flex flex-col gap-2 lg:flex-row items-start "
             >
               <div className="flex-shrink-0">
-                <span className="flex items-center justify-center w-10 h-10 bg-[#EEEEEE] rounded-full text-black">
+                <span className="flex items-center justify-center w-10 h-10 bg-[#EEEEEE] rounded-full text-black mt-1">
                   {typeof feature.icon === "string" ? (
                     feature.icon
                   ) : (

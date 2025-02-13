@@ -156,4 +156,33 @@ export const generalFAQ = [
     answer:
       "Yes, most of our courses are self-paced, allowing learners to complete them at their convenience. However, some instructor-led programs have set schedules.",
   },
+  {
+    category: "started",
+    question: "What are the system requirements to use the platform?",
+    answer:
+      "Our platform works on most devices, including laptops, tablets, and smartphones. You will need a stable internet connection and preferably icore i5 and above. ",
+  },
+  {
+    category: "started",
+    question: "How do I enroll in a course?",
+    answer:
+      "Simply browse our course catalog, select a course, and click the Enroll button. If it's a paid course, you will be prompted to complete the payment.",
+  },
+  {
+    category: "started",
+    question: "Do I need any prior knowledge to take a course?",
+    answer:
+      "It depends on the course. Some are beginner-friendly, while others require prior knowledge. Check the course description for prerequisites.",
+  },
+  {
+    category: "started",
+    question: "Can I access my courses at any time?",
+    answer:
+      "Yes! Once enrolled, you can access your courses anytime, anywhere, as long as you have an internet connection.",
+  },
+  {
+    category: "started",
+    question: "Do I need to install any software to use the platform?",
+    answer: "Only the apps used for your chosen track.",
+  },
 ];

@@ -58,8 +58,8 @@ export const FAQButtons = ({
         Course content
       </button>
       <button
-        onClick={() => handleButtonClick("home")}
-        className={buttonClasses("home")}
+        onClick={() => handleButtonClick("started")}
+        className={buttonClasses("started")}
       >
         Getting started
       </button>
