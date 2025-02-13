@@ -6,7 +6,7 @@ export const testimonials = [
     name: "Inengite Bozimo",
     role: "UX Designer",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar_niocdx.png",
   },
   {
     id: 2,
