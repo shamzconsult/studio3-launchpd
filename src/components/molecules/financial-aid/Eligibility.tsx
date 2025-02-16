@@ -24,6 +24,7 @@ export const Eligibility = () => {
             <li><span className="font-extrabold">Demonstrated Commitment – </span>Active participation in coursework and assignments is required.</li>
             <li><span className="font-extrabold">Financial Need – </span> Applicants should provide a brief statement explaining their need for financial assistance.</li>
             <li><span className="font-extrabold">Consistent Progress – </span>Maintaining a good academic standing and engagement in cohort activities is necessary.</li>
+            <li><span className="font-extrabold">Application Submission – </span>Complete the financial aid application with supporting documents before the deadline.</li>
           </ul>
           <p className="">Take advantage of this opportunity to invest in your future!</p>
           <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg  transition"> Apply Now
