@@ -15,7 +15,7 @@ export const FinanceHero = () => {
             scholarships, and more. Take a step to unlock your future today!
           </p>
           <button className="px-8 py-2 md:w-fit w-full bg-white text-[#DA251C] rounded-md shadow-lg  transition">
-            Apply Now +
+            Apply Now &rarr;
           </button>
         </div>
 
