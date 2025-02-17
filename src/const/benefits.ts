@@ -43,7 +43,7 @@ export const partnerBenefits: BenefitType[] = [
     icon: HiLightBulb,
     title: "Innovative Learning Platform",
     description:
-      "Studio3Launchpad uses advanced AI and gamification to provide a unique user experience, ensuring it's a smart, future-ready investment.",
+      "Studio3Launchpad uses advanced AI and gamification to provide a unique user experience, ensuring its a smart, future-ready investment.",
   },
   {
     icon: GiAnvilImpact,
