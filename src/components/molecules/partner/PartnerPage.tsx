@@ -3,6 +3,7 @@
 import { BenefitCards } from "@/components/atoms/BenefitCards";
 import { PartnerHero } from "./PartnerHero";
 import { PartnerForm } from "./PartnerForm";
+import { partnerBenefits } from "@/const/benefits";
 
 export const PartnerPage = () => {
   return (
@@ -11,7 +12,8 @@ export const PartnerPage = () => {
       <div className="py-20">
         <BenefitCards
           header="Why you should partner with us"
-          subheader="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+          subheader="Unlock unparalleled opportunities for growth, impact, and innovation."
+          data={partnerBenefits}
         />
       </div>
       <PartnerForm header="Learn more about partnering with us" />

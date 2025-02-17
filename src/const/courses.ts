@@ -49,7 +49,58 @@ export const courses = [
     description:
       " Learn how to craft compelling product stories, execute data-driven campaigns, and position products for success in competitive markets.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737359864/edutech/image-1_hqsxdb.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
+  },
+];
+
+export const coursesPrice = [
+  {
+    id: 1,
+    title: "Software Engineering",
+    description: "6 months",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
+  },
+  {
+    id: 2,
+    title: "Data Science and AI",
+    description: "6 months",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
+  },
+  {
+    id: 3,
+    title: "Product Management",
+    description: "6 months",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
+  },
+  {
+    id: 4,
+    title: "Web3 Development",
+    description: "6 months ",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
+  },
+  {
+    id: 5,
+    title: "UI/UX Design",
+    description: "6 months",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
+  },
+  {
+    id: 6,
+    title: "Product Marketing",
+    description: "6 months",
+    price: 500,
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
   },
 ];
 

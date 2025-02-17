@@ -10,6 +10,7 @@ export type Course = {
   image: string;
   title: string;
   description: string;
+  price?: number;
 };
 
 type ExploreCoursesProps = {
@@ -41,7 +42,10 @@ export const CourseCard = ({
               <Image src={course.image} alt={course.title} fill />
             </div>
             <div className="flex flex-col justify-evenly gap-3 items-start p-2">
-              <h3 className="font-semibold mb-1">{course.title}</h3>
+              <div className="flex justify-between font-semibold w-full pr-3 mb-1">
+                <h3>{course.title}</h3>
+                {course.price !== undefined && <h3>${course.price}</h3>}
+              </div>
               <p className="text-[#747474] text-sm ">{course.description}</p>
               <button className="text-[#DA251C]  hover:underline flex items-center group">
                 Learn More

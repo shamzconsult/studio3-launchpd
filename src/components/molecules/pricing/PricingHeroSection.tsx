@@ -18,9 +18,9 @@ export const PricingHeroSection = () => {
         </button>
       </div>
 
-      <div className="relative w-full h-[400px] lg:w-[650px] md:h-[500px]">
+      <div className="relative w-full h-[400px] lg:w-[650px]">
         <Image
-          src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737360809/edutech/Image_and_Icons_Container_mutasn.png"
+          src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/Image_3_oqbli6.png"
           alt="Students Learning"
           fill
         />

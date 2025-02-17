@@ -9,8 +9,8 @@ export const PartnerHero = () => {
             Partner with us for a brighter future
           </h1>
           <p className="text-lg mb-6 max-w-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            "Empowering education, transforming lives, and driving
+            success—together."
           </p>
           <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition">
             Get in touch &rarr;

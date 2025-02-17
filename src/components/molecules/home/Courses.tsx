@@ -10,7 +10,8 @@ export const Courses = ({ title }: { title: string }) => {
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold"> {title}</h1>
           <p className="text-xl mt-2">
-            Hey there! Want to level up? Join our EdTech crew today!
+            Hello! Ready to advance? Join our cohort-based training programs
+            now!
           </p>
         </div>
 

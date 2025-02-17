@@ -1,4 +1,5 @@
 import { BenefitCards } from "@/components/atoms/BenefitCards";
+import { benefits } from "@/const/benefits";
 
 export const Benefit = () => {
   return (
@@ -6,6 +7,7 @@ export const Benefit = () => {
       <BenefitCards
         header="Benefits"
         subheader="Some of the benefits of learning with us."
+        data={benefits}
       />
 
       <div

@@ -1,11 +1,13 @@
-import { benefits } from "@/const/benefits";
+import { BenefitType } from "@/const/benefits";
 
 export const BenefitCards = ({
   header,
   subheader,
+  data,
 }: {
   header: string;
   subheader: string;
+  data: BenefitType[];
 }) => {
   return (
     <div className="px-4 lg:px-0">
@@ -15,7 +17,7 @@ export const BenefitCards = ({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-3 lg:px-0">
-        {benefits.map((benefit, index) => (
+        {data.map((benefit, index) => (
           <div
             key={index}
             className="p-6 bg-[#FBE9E8] rounded-lg flex flex-col gap-3"
