@@ -1,7 +1,6 @@
 "use client";
 
 import { Carousel } from "@/components/atoms/Carousel";
-import { Courses } from "../home/Courses";
 import { PricingHeroSection } from "./PricingHeroSection";
 import { partners } from "@/const/partners";
 import FAQ from "@/components/atoms/FAQs";
@@ -17,7 +16,6 @@ export const PricingPage = () => {
   return (
     <div className="">
       <PricingHeroSection />
-      {/* <Courses title="Find the right Course for You" /> */}
       <section className="py-20 px-6 ">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold"> Find the right Course for You</h1>
