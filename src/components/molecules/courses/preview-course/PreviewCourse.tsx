@@ -5,28 +5,34 @@ import { PreviewHero } from "./PreviewHero";
 import { PricingPlan } from "./PricingPlan";
 import { generalFAQ } from "@/const/faqs";
 import FAQ from "@/components/atoms/FAQs";
-import { Course, CourseCard } from "@/components/atoms/CourseCard";
-import { courses } from "@/const/courses";
+import { CourseCard } from "@/components/atoms/CourseCard";
+import { courses, CourseType } from "@/const/courses";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
-const getRandomCourses = (courses: Course[], num: number) => {
+const getRandomCourses = (courses: CourseType[], num: number) => {
   const shuffled = courses.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, num);
 };
 
-export const PreviewCourse = async ({ id }: { id: number }) => {
-  const courseData = courses.find((course) => course.id === id);
-  console.log(courseData);
+export const PreviewCourse = async ({ id }: { id: string }) => {
+  const courseData = courses.find((course) => {
+    return course.id == id;
+  });
+  if (!courseData) {
+    return (
+      <div className="text-center font-bold h-screen">Course not found</div>
+    );
+  }
 
   const topThreeCourses = getRandomCourses(courses, 3);
 
   const courseFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "course");
 
   return (
-    <div>
-      <PreviewHero />
-      <CourseAudience />
-      <LearningOutcomes />
+    <div className="">
+      <PreviewHero courseData={courseData} />
+      <CourseAudience courseData={courseData} />
+      <LearningOutcomes courseData={courseData} />
       <PricingPlan />
       <div className="py-16 lg:py-36">
         <TestimonialCard title="Testimonials" />

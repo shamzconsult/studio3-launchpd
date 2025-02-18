@@ -2,7 +2,7 @@ export const PricingPlan = () => {
   const pricingPlans = [
     {
       title: "Full Tuition",
-      price: "$600",
+      price: "$500",
       description: "Early discount up to 5%",
     },
     {

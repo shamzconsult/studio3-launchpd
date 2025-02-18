@@ -3,15 +3,14 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaRegCalendarAlt, FaTv } from "react-icons/fa";
 import { MdOutlineGroups } from "react-icons/md";
 import { FiBook } from "react-icons/fi";
+import { CourseType } from "@/const/courses";
 
-export const LearningOutcomes = () => {
-  const outcomes = [
-    "Understand the core concepts of data analysis.",
-    "Machine Learning Techniques: Supervised and unsupervised learning.",
-    "Data Science Fundamentals: Data cleaning, visualization, and statistical analysis.",
-    "AI Applications: Neural networks, natural language processing, and computer vision.",
-    "Tools and Frameworks: Python, pandas, and more.",
-  ];
+export const LearningOutcomes = ({
+  courseData,
+}: {
+  courseData: CourseType;
+}) => {
+  const outcomes = courseData.outcomes;
 
   const features = [
     {
@@ -46,9 +45,9 @@ export const LearningOutcomes = () => {
     },
   ];
   return (
-    <div className="max-w-6xl mx-auto  py-20 px-4 lg:px-0 ">
-      <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-24 justify-between items-start">
-        <ul className="space-y-8">
+    <div className="max-w-6xl mx-auto  py-20 px-4 lg:px-2 ">
+      <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-24 justify-between items-start px-6">
+        <ul className="space-y-8 max-w-xl">
           {outcomes.map((outcome, index) => (
             <li
               key={index}
@@ -62,12 +61,11 @@ export const LearningOutcomes = () => {
           ))}
         </ul>
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 text-nowrap">
             Learning Outcomes
           </h2>
           <p className="text-gray-600 mb-8">
-            In our Data Analytics program, you will achieve the following
-            learning outcomes:
+            {courseData.outcomesHeader || ""}
           </p>
         </div>
       </div>

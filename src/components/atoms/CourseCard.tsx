@@ -1,20 +1,21 @@
 "use client";
 
+import { CourseType } from "@/const/courses";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-export type Course = {
-  id: number;
-  image: string;
-  title: string;
-  description: string;
-  price?: number;
-};
+// export type Course = {
+//   id: string;
+//   image: string;
+//   title: string;
+//   description: string;
+//   price?: number;
+// };
 
 type ExploreCoursesProps = {
-  explorecourses: Course[];
+  explorecourses: CourseType[];
   header?: string;
 };
 
