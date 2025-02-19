@@ -3,7 +3,7 @@ import { YTVideo } from "@/components/atoms/Video";
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 px-6 max-w-6xl mx-auto">
+    <section className="py-20 px-4 max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-3xl font-bold">Testimonial</h1>
       </div>

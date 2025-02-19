@@ -20,7 +20,7 @@ export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
   };
 
   return (
-    <section className="py-20 px-6 ">
+    <section className="py-20  ">
       <div className="max-w-4xl mx-auto text-center mb-8">
         <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
       </div>
@@ -49,16 +49,17 @@ export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
           </div>
         ))}
       </div>
-
-      <div className="mt-6 text-center">
-        <button
-          onClick={() => setShowAll(!showAll)}
-          className="text-[#DA251C] font-medium "
-        >
-          {showAll ? "See Less" : "See More"}
-          <span className="ml-1">{showAll ? "-" : "+"}</span>
-        </button>
-      </div>
+      {faqData.length > 5 && (
+        <div className="mt-6 text-center">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="text-[#DA251C] font-medium "
+          >
+            {showAll ? "See Less" : "See More"}
+            <span className="ml-1">{showAll ? "-" : "+"}</span>
+          </button>
+        </div>
+      )}
     </section>
   );
 };

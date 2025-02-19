@@ -6,14 +6,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-// export type Course = {
-//   id: string;
-//   image: string;
-//   title: string;
-//   description: string;
-//   price?: number;
-// };
-
 type ExploreCoursesProps = {
   explorecourses: CourseType[];
   header?: string;
@@ -57,15 +49,17 @@ export const CourseCard = ({
         ))}
       </div>
 
-      <div className="text-center mt-12">
-        <button
-          className="text-[#DA251C]  hover:underline"
-          onClick={() => setShowMore(!showMore)}
-        >
-          {showMore ? "See Less" : "See More "}
-          <span className="ml-1">{showMore ? "-" : "+"}</span>
-        </button>
-      </div>
+      {explorecourses.length > 6 && (
+        <div className="text-center mt-12">
+          <button
+            className="text-[#DA251C]  hover:underline"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? "See Less" : "See More "}
+            <span className="ml-1">{showMore ? "-" : "+"}</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 };

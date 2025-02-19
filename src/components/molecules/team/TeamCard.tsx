@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const TeamCard = () => {
   return (
-    <div className="max-w-6xl mx-auto  px-8 lg:px-0  ">
+    <div className="max-w-6xl mx-auto  px-4 lg:px-2  ">
       <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
         {team.map((tutor, index) => (
           <div

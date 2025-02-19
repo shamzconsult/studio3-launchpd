@@ -46,7 +46,7 @@ export const LearningOutcomes = ({
   ];
   return (
     <div className="max-w-6xl mx-auto  py-20 px-4 lg:px-2 ">
-      <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-24 justify-between items-start px-6">
+      <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-24 justify-between items-start ">
         <ul className="space-y-8 max-w-xl">
           {outcomes.map((outcome, index) => (
             <li
@@ -61,7 +61,7 @@ export const LearningOutcomes = ({
           ))}
         </ul>
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 text-nowrap">
+          <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 lg:text-nowrap">
             Learning Outcomes
           </h2>
           <p className="text-gray-600 mb-8">
@@ -70,7 +70,7 @@ export const LearningOutcomes = ({
         </div>
       </div>
 
-      <section className="max-w-6xl mx-auto py-24 mt-24 lg:mt-56 px-4 bg-[#FFF6EF] rounded-xl border border-gray-400">
+      <section className="max-w-6xl mx-auto py-10 lg:py-24 mt-24 lg:mt-56 px-4 bg-[#FFF6EF] rounded-xl border border-gray-400">
         <div className="text-center">
           <h2 className="text-3xl font-bold">Program Structure</h2>
           <p className="text-gray-600 mt-2">

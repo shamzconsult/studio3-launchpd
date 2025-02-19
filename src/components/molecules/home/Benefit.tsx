@@ -11,7 +11,7 @@ export const Benefit = () => {
       />
 
       <div
-        className="py-32 mt-16 bg-cover bg-center relative flex items-center justify-center px-6 lg:px-0"
+        className="py-32 mt-16 bg-cover bg-center relative flex items-center justify-center px-4 lg:px-0"
         style={{
           backgroundImage:
             "url('https://res.cloudinary.com/dcgghkk7q/image/upload/v1737375235/edutech/Header_Text_toijhd.png')",

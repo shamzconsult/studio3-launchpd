@@ -16,7 +16,7 @@ export const PricingPage = () => {
   return (
     <div className="">
       <PricingHeroSection />
-      <section className="py-20 px-6 ">
+      <section className="py-20 px-4 ">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold"> Find the right Course for You</h1>
           <p className="text-xl mt-2">

@@ -34,7 +34,7 @@ export const PreviewCourse = async ({ id }: { id: string }) => {
       <CourseAudience courseData={courseData} />
       <LearningOutcomes courseData={courseData} />
       <PricingPlan />
-      <div className="py-16 lg:py-36">
+      <div className="py-16 lg:py-36 px-4">
         <TestimonialCard title="Testimonials" />
       </div>
       <FAQ faqData={courseFAQQuestions} />

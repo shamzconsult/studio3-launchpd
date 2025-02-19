@@ -13,7 +13,7 @@ export const ApplyFinance = () => {
             We care about your future Apply for Financial Aid Now
           </h1>
           <button className="px-8 mt-6 py-2 md:w-fit w-full font-medium bg-white text-[#DA251C] rounded-md shadow-lg  transition">
-            + Apply Now +
+            Apply Now &rarr;
           </button>
         </div>
       </section>

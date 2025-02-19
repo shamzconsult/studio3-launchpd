@@ -21,7 +21,7 @@ export const CourseAudience = ({ courseData }: { courseData: CourseType }) => {
   const audienceDetails = courseData.audienceDetails;
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-20 mt-8 lg:px-0">
+    <div className="max-w-6xl mx-auto px-4 py-20 mt-8 lg:px-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start ">
         <div>
           <h2 className="text-4xl lg:text-5xl font-bold max-w-md text-gray-800 mb-8">

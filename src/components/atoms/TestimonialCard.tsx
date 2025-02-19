@@ -14,7 +14,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
     ? testimonials
     : testimonials.slice(0, 3);
   return (
-    <div className="max-w-6xl mx-auto px-6 lg:px-0">
+    <div className="max-w-6xl mx-auto  lg:px-0">
       {title && (
         <h2 className="text-3xl font-bold text-center mb-6">{title}</h2>
       )}
@@ -42,15 +42,17 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
         ))}
       </div>
 
-      <div className="text-center mt-12">
-        <button
-          className="text-[#DA251C]  hover:underline"
-          onClick={() => setShowMore(!showMore)}
-        >
-          {showMore ? "See Less" : "See More "}{" "}
-          <span className="ml-1">{showMore ? "-" : "+"}</span>
-        </button>
-      </div>
+      {testimonials.length > 3 && (
+        <div className="text-center mt-12">
+          <button
+            className="text-[#DA251C]  hover:underline"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? "See Less" : "See More "}{" "}
+            <span className="ml-1">{showMore ? "-" : "+"}</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 };

@@ -3,8 +3,8 @@ import Image from "next/image";
 export const PartnerHero = () => {
   return (
     <div className="w-full bg-[#FFF6EF]">
-      <section className="max-w-6xl  mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-between lg:items-center mt-12 w-full lg:mt-20 px-5 lg:px-0  ">
-        <div className="max-w-xl px-2 lg:px-0">
+      <section className="max-w-6xl  mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-between lg:items-center mt-12 w-full lg:mt-20 px-4 lg:px-0  ">
+        <div className="max-w-xl">
           <h1 className="text-3xl text-[#DA251C] md:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
             Partner with us for a brighter future
           </h1>
@@ -17,7 +17,7 @@ export const PartnerHero = () => {
           </button>
         </div>
 
-        <div className="relative w-full h-[300px]  lg:w-[445px] ">
+        <div className="relative w-full h-[250px] lg:h-[300px]  lg:w-[445px] mt-20 lg:mt-0 ">
           <Image
             src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1739345328/edutech/partner_img_piymbg.png"
             alt="Students Learning"

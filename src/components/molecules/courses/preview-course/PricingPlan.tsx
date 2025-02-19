@@ -17,7 +17,7 @@ export const PricingPlan = () => {
     },
   ];
   return (
-    <div className="py-16 px-6 md:px-12 lg:px-24">
+    <div className="py-16 px-4 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
           Pricing

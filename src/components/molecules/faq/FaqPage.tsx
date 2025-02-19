@@ -28,7 +28,7 @@ export const FaqPage = () => {
   return (
     <div>
       <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 ">
-        <div className="max-w-6xl mx-auto py-14 px-4 lg:px-0">
+        <div className="max-w-6xl mx-auto py-14">
           <h1 className="text-2xl md:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
           </h1>
@@ -51,7 +51,7 @@ export const FaqPage = () => {
         </div>
       </section>
 
-      <section className="py-20 px-6 overflow-x-auto">
+      <section className="py-20  overflow-x-auto">
         <div className="max-w-4xl mx-auto text-center mb-8 lg:mb-10">
           <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
         </div>
@@ -89,15 +89,17 @@ export const FaqPage = () => {
           ))}
         </div>
 
-        <div className="mt-6 text-center">
-          <button
-            onClick={() => setShowAll(!showAll)}
-            className="text-[#DA251C] font-medium "
-          >
-            {showAll ? "See Less" : "See More"}
-            <span className="ml-1">{showAll ? "-" : "+"}</span>
-          </button>
-        </div>
+        {question.length > 5 && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="text-[#DA251C] font-medium "
+            >
+              {showAll ? "See Less" : "See More"}
+              <span className="ml-1">{showAll ? "-" : "+"}</span>
+            </button>
+          </div>
+        )}
       </section>
       <Help />
     </div>

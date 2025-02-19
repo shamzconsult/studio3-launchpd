@@ -15,7 +15,7 @@ export const CoursePage = () => {
       <ExploreCourses />
       <ProgramStructure />
       <Carousel title="Where our Alumnis work" logos={partners} />
-      <div className="py-20">
+      <div className="py-20 px-4">
         <TestimonialCard title="Testimonials" />
       </div>
       <ApplyFinance />

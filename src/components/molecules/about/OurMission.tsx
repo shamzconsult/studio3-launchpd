@@ -17,7 +17,7 @@ export const OurMission = () => {
   ];
   return (
     <div className="bg-[#FAFAFA] py-24 lg:mt-20">
-      <div className="max-w-6xl mx-auto px-6 lg:px-0">
+      <div className="max-w-6xl mx-auto px-4 lg:px-0">
         <section className="flex  flex-col justify-between  md:flex-row gap-3 lg:gap-16 mb-3">
           <div>
             <p className="bg-[#FFECBF] p-2 rounded-lg w-fit mb-2">

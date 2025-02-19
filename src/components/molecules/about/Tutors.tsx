@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Tutors = () => {
   return (
-    <div className="max-w-6xl mx-auto py-20 px-6">
+    <div className="max-w-6xl mx-auto py-20 px-4">
       <p className=" font-thin">EXPERT TUTORS</p>
       <h1 className="mt-3 text-2xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold  max-w-3xl">
         Learn from Industry Experts
@@ -30,11 +30,6 @@ export const Tutors = () => {
             </div>
           </div>
         ))}
-      </div>
-      <div className="text-center mt-12">
-        <button className="bg-[#DA251C]  text-white px-4 py-1.5">
-          Explore More Courses
-        </button>
       </div>
     </div>
   );

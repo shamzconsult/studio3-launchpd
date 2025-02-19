@@ -2,7 +2,7 @@ import { availablecourses } from "@/const/courses";
 
 export const AvailableCourses = () => {
   return (
-    <section className="max-w-6xl mx-auto py-20 px-6 lg:px-0">
+    <section className="max-w-6xl mx-auto py-20 px-4 lg:px-0">
       <div className="mb-4">
         <h2 className="text-2xl font-bold text-center mb-2">
           Courses Available
@@ -14,7 +14,7 @@ export const AvailableCourses = () => {
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {availablecourses.map((course, index) => (
-          <div key={index} className="bg-[#FFF1F0] rounded-lg p-6">
+          <div key={index} className="bg-[#FFF1F0] rounded-lg p-3 lg:p-6">
             <p className="bg-[#FFF] p-2 rounded-full w-fit h-fit mb-2">
               {typeof course.icon === "string" ? (
                 course.icon

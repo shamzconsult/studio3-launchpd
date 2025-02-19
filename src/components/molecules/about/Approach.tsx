@@ -2,7 +2,7 @@ import { features } from "@/const/features";
 
 export const Approach = () => {
   return (
-    <div className="max-w-6xl mx-auto py-20 px-6">
+    <div className="max-w-6xl mx-auto py-20 px-4">
       <section className="flex  flex-col  md:flex-row justify-between gap-3 md:gap-10 mb-3">
         <div className="max-w-3xl">
           <p className="mb-2">Our Approach</p>

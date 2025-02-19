@@ -11,15 +11,15 @@ export const PreviewHero = ({ courseData }: { courseData: CourseType }) => {
       <div className="flex flex-col items-center justify-center gap-6 lg:gap-16 max-w-6xl mx-auto  px-4 py-20 lg:px-0 mt-20">
         <div className="text-center">
           <p className="font-medium tracking-wide">ABOUT THE COURSE</p>
-          <h1 className="text-4xl  lg:text-6xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold text-gray-800 max-w-2xl mt-6">
+          <h1 className="text-left lg:text-center text-3xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold text-gray-800 max-w-2xl mt-6">
             Learn about our {courseData.title}
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-center">
+          <p className="mt-6 max-w-2xl mx-auto text-left lg:text-center">
             {courseData.previewDescription}
           </p>
         </div>
 
-        <div className="bg-[#991A14] text-white w-full max-w-4xl rounded-2xl shadow-lg flex flex-col md:flex-row justify-between items-center p-6 gap-4">
+        <div className="bg-[#991A14] text-white w-full max-w-4xl rounded-2xl shadow-lg flex flex-col md:flex-row justify-between items-center p-3 lg:p-6 gap-4">
           <div className="text-center md:text-left">
             <div className="flex gap-3">
               <p className="uppercase font-semibold">Tuition Fee</p>

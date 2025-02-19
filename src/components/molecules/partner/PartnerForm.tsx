@@ -4,11 +4,11 @@ interface PartnerHeader {
 
 export const PartnerForm = ({ header = "" }: PartnerHeader) => {
   return (
-    <div className="max-w-6xl mx-auto py-20  px-6 lg:px-0 ">
+    <div className="max-w-6xl mx-auto py-20  px-4 lg:px-0 ">
       {header && (
         <h1 className="text-2xl font-bold text-center mb-6">{header}</h1>
       )}
-      <div className="p-8 rounded-2xl shadow-2xl w-full lg:w-[591px] mx-auto border-t-4 border-[#DA251C] mt-10">
+      <div className="p-4 lg:p-8 rounded-2xl shadow-2xl w-full md:w-[591px] mx-auto border-t-4 border-[#DA251C] mt-10">
         <form>
           <div className="mb-4">
             <label
