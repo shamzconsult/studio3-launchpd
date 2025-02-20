@@ -1,8 +1,9 @@
 "use client";
-import { Facebook } from "../icons/Facebook";
 import { LinkedIn } from "../icons/LinkedIn";
 import { Instagram } from "../icons/Instagram";
 import { Logo } from "./Logo";
+import { BsTwitterX } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -15,24 +16,34 @@ export const Footer = () => {
               Empowering learners with quality, accessible, and engaging
               educational resources.
             </p>
-            <div className="flex gap-4 items-center mt-3 ">
+            <div className="flex gap-2 items-center mt-3 ">
               <a
-                href=""
+                href="https://x.com/Studio3Launchpd"
+                target="blank"
                 className="border border-[#393939] rounded-xl p-2 hover:border-red-600 duration-100 ease-in-out"
               >
-                <Facebook className=" w-6 h-6" />
+                <BsTwitterX className=" w-4 h-4" />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/company/studio3launchpad/"
+                target="blank"
                 className="border border-[#393939] rounded-xl p-2 hover:border-red-600 duration-100 ease-in-out"
               >
-                <LinkedIn className=" w-6 h-6" />
+                <LinkedIn className=" w-4 h-4" />
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/studio3launchpad/"
+                target="blank"
                 className="border border-[#393939] rounded-xl p-2 hover:border-red-600 duration-100 ease-in-out"
               >
-                <Instagram className="w-6 h-6" />
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@studio3launchpad"
+                target="blank"
+                className="border border-[#393939] rounded-xl p-2 hover:border-red-600 duration-100 ease-in-out"
+              >
+                <FaTiktok className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -61,31 +72,11 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-gray-800 mb-4">Courses</h4>
             <ul className="space-y-5 text-gray-600">
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Software Development
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Web3 Development
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Product Management
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Data Analytics
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  UI/UX Design
-                </a>
-              </li>
+              <li>Software Development</li>
+              <li>Web3 Development</li>
+              <li>Product Management</li>
+              <li>Data Analytics</li>
+              <li>UI/UX Design</li>
             </ul>
           </div>
 
@@ -102,16 +93,8 @@ export const Footer = () => {
                   Partnership
                 </a>
               </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Join as Tutor
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Services
-                </a>
-              </li>
+              <li>Join as Tutor</li>
+              <li>Services</li>
               <li>
                 <a href="/contact" className="hover:text-red-500">
                   Contact us
@@ -124,25 +107,21 @@ export const Footer = () => {
             <h4 className="font-semibold text-gray-800 mb-4">FAQs</h4>
             <ul className="space-y-5 text-gray-600">
               <li>
-                <a href="" className="hover:text-red-500">
+                <a href="/pricing" className="hover:text-red-500">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-red-500">
+                <a href="courses" className="hover:text-red-500">
                   Courses
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-red-500">
+                <a href="/faq" className="hover:text-red-500">
                   Getting Started
                 </a>
               </li>
-              <li>
-                <a href="" className="hover:text-red-500">
-                  Technical Support
-                </a>
-              </li>
+              <li>Technical Support</li>
             </ul>
           </div>
         </div>

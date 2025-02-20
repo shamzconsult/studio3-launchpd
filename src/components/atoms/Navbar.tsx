@@ -50,7 +50,7 @@ export const Navbar = () => {
         <div
           className={`${
             isOpen
-              ? "flex flex-col justify-start items-start  gap-5 px-4  "
+              ? "flex flex-col justify-start items-start  gap-5 px-4 h-screen py-6 "
               : "hidden"
           } lg:flex lg:flex-row lg:items-center lg:space-x-6 absolute lg:static top-16 left-0 w-full bg-white lg:w-auto lg:bg-transparent py-4 md:py-0`}
         >
@@ -104,7 +104,7 @@ export const Navbar = () => {
           ))}
 
           <div
-            className="lg:hidden w-full px-2 text-center pb-10"
+            className="lg:hidden w-full px-2 text-center pb-10 mt-2"
             onClick={handleLinkClick}
           >
             <button className="flex justify-center w-full items-center text-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]">

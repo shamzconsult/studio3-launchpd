@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const HomeHeroSection = () => {
   return (
-    <section className="max-w-6xl mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-16 w-full  lg:px-0 ">
+    <section className="max-w-6xl mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-10 w-full  lg:px-0 ">
       <div className="max-w-xl p-4 lg:p-0">
         <h1 className="text-3xl md:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
           Unlock your

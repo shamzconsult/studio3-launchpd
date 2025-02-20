@@ -13,6 +13,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
   const visibleTestimonials = showMore
     ? testimonials
     : testimonials.slice(0, 3);
+
   return (
     <div className="max-w-6xl mx-auto  lg:px-0">
       {title && (
