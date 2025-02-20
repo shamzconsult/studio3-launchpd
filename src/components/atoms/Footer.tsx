@@ -112,7 +112,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="courses" className="hover:text-red-500">
+                <a href="/courses" className="hover:text-red-500">
                   Courses
                 </a>
               </li>
