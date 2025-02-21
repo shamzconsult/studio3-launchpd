@@ -11,7 +11,7 @@ export const testimonials = [
   {
     id: 2,
     message:
-      "Enrolling in the Product Management course was a game-changer for my career. The training, and mentorship gave me the confidence to transition from a marketing role to a full-fledged product manager.",
+      "Enrolling in the Product Management course was a game-changer for my career. The training, and mentorship gave me the confidence to transition from a marketing role to a full-fledged product manager!",
     name: "Babajide Ige",
     role: "Social Media Manager",
     image:
@@ -25,5 +25,14 @@ export const testimonials = [
     role: "Full-Stack Developer",
     image:
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
+  },
+  {
+    id: 4,
+    message:
+      "Enrolling in this cohort was a pivotal moment in my career. The mentors provided me with the resources and support I needed to pivot from a non-tech role to a software engineer.",
+    name: "Abdulazeez Lawal",
+    role: "Software Engineer",
+    image:
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739339198/edutech/Avatar-2_fuqjgn.png",
   },
 ];
