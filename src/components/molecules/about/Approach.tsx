@@ -31,7 +31,7 @@ export const Approach = () => {
             </p>
             <div>
               <h3 className="text-lg font-semibold">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="opacity-90">{feature.description}</p>
             </div>
           </div>
         ))}

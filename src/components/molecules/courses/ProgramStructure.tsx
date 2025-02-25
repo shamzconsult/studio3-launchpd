@@ -25,7 +25,7 @@ export const ProgramStructure = () => {
     <div className="max-w-6xl mx-auto py-24 px-4">
       <div className="text-center">
         <h2 className="text-3xl font-bold">Program Structure</h2>
-        <p className="text-gray-600 mt-2">
+        <p className=" mt-2">
           We provide affordable plans, and offer payment options that would help
           you
         </p>
@@ -39,10 +39,8 @@ export const ProgramStructure = () => {
             <div className="text-2xl p-2 bg-[#FFD0CD] rounded-lg">
               <feature.icon />
             </div>
-            <h3 className="text-lg font-semibold text-gray-800">
-              {feature.title}
-            </h3>
-            <p className="text-gray-600 ">{feature.description}</p>
+            <h3 className="text-lg font-semibold">{feature.title}</h3>
+            <p>{feature.description}</p>
           </div>
         ))}
       </div>

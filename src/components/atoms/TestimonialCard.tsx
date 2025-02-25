@@ -50,7 +50,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
                   </div>
                   <div>
                     <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.role}</p>
+                    <p className="text-sm ">{testimonial.role}</p>
                   </div>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
               </div>
               <div>
                 <h4 className="font-semibold">{testimonial.name}</h4>
-                <p className="text-sm text-gray-500">{testimonial.role}</p>
+                <p className="text-sm ">{testimonial.role}</p>
               </div>
             </div>
           </div>

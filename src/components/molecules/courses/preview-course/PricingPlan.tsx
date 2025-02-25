@@ -19,9 +19,7 @@ export const PricingPlan = () => {
   return (
     <div className="py-16 px-4 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-          Pricing
-        </h2>
+        <h2 className="text-4xl lg:text-5xl font-bold  mb-4">Pricing</h2>
         <p className="mb-8">
           We provide affordable plans and offer payment options that would help
           you.
@@ -32,12 +30,8 @@ export const PricingPlan = () => {
               key={index}
               className=" flex flex-col gap-4 border border-[#E3E3E3] rounded-xl p-6 text-left  transition"
             >
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                {plan.title}
-              </h3>
-              <p className="text-4xl font-bold text-gray-800 mb-2">
-                {plan.price}
-              </p>
+              <h3 className="text-xl font-semibold  mb-2">{plan.title}</h3>
+              <p className="text-4xl font-bold  mb-2">{plan.price}</p>
               <p className="bg-[#EBFFE8] text-green-600 text-sm w-fit px-4 py-1 inline-block rounded mb-4">
                 {plan.description}
               </p>

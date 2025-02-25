@@ -56,24 +56,22 @@ export const LearningOutcomes = ({
               <div className="text-red-600">
                 <MdCheckCircleOutline size={20} />
               </div>
-              <p className="text-gray-700">{outcome}</p>
+              <p>{outcome}</p>
             </li>
           ))}
         </ul>
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 lg:text-nowrap">
+          <h2 className="text-3xl lg:text-5xl font-bold  mb-4 lg:text-nowrap">
             Learning Outcomes
           </h2>
-          <p className="text-gray-600 mb-8">
-            {courseData.outcomesHeader || ""}
-          </p>
+          <p className=" mb-8">{courseData.outcomesHeader || ""}</p>
         </div>
       </div>
 
       <section className="max-w-6xl mx-auto py-10 lg:py-24 mt-24 lg:mt-56 px-4 bg-[#FFF6EF] rounded-xl border border-gray-400">
         <div className="text-center">
           <h2 className="text-3xl font-bold">Program Structure</h2>
-          <p className="text-gray-600 mt-2">
+          <p className=" mt-2">
             We provide affordable plans, and offer payment options that would
             help you
           </p>
@@ -87,10 +85,8 @@ export const LearningOutcomes = ({
               <div className="text-2xl p-2 bg-[#FFD0CD] rounded-lg">
                 <feature.icon />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600 ">{feature.description}</p>
+              <h3 className="text-lg font-semibold ">{feature.title}</h3>
+              <p>{feature.description}</p>
             </div>
           ))}
         </div>

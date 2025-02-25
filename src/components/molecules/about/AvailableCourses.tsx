@@ -19,7 +19,7 @@ export const AvailableCourses = () => {
               {typeof course.icon === "string" ? (
                 course.icon
               ) : (
-                <course.icon className="h-8 w-8" />
+                <course.icon className="h-8 w-8 text-[#DA251C]" />
               )}
             </p>
             <h3 className="text-lg font-semibold mb-2">{course.title}</h3>

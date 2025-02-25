@@ -40,10 +40,13 @@ export const CourseCard = ({
                 {course.price !== undefined && <h3>${course.price}</h3>}
               </div>
               <p className="text-[#747474] text-sm ">{course.description}</p>
-              <button className="text-[#DA251C]  hover:underline flex items-center group">
+              <Link
+                href={`/courses/${course.id}`}
+                className="text-[#DA251C]  hover:underline flex items-center group"
+              >
                 Learn More
                 <MdOutlineKeyboardArrowRight className="px-1" size={28} />
-              </button>
+              </Link>
             </div>
           </Link>
         ))}

@@ -24,7 +24,7 @@ export const CourseAudience = ({ courseData }: { courseData: CourseType }) => {
     <div className="max-w-6xl mx-auto px-4 py-20 mt-8 lg:px-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start ">
         <div>
-          <h2 className="text-4xl lg:text-5xl font-bold max-w-md text-gray-800 mb-8">
+          <h2 className="text-4xl lg:text-5xl font-bold max-w-md  mb-8">
             Who is this Course for?
           </h2>
           <div className="relative w-full lg:w-[385px] h-[268px]">
@@ -47,7 +47,7 @@ export const CourseAudience = ({ courseData }: { courseData: CourseType }) => {
                     <IconComponent className="text-lg text-[#0A0A0A]" />
                   )}
                 </div>
-                <p className="text-gray-700">{text}</p>
+                <p>{text}</p>
               </div>
             );
           })}

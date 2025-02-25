@@ -42,7 +42,7 @@ export const Navbar = () => {
             {isOpen ? (
               <AiOutlineClose className="text-red-600" />
             ) : (
-              <VscMenu className="text-gray-950" />
+              <VscMenu className="" />
             )}
           </button>
         </div>
@@ -79,7 +79,7 @@ export const Navbar = () => {
                       <Link
                         key={child.url}
                         href={child.url}
-                        className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
+                        className="block px-4 py-2 text-sm  hover:bg-gray-100"
                         onClick={handleLinkClick}
                       >
                         {child.label}
@@ -107,16 +107,22 @@ export const Navbar = () => {
             className="lg:hidden w-full px-2 text-center pb-10 mt-2"
             onClick={handleLinkClick}
           >
-            <button className="flex justify-center w-full items-center text-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfzjRKzW4FXap0_6RJjV4hN0UNYDtcZp5Ge2go97GdBHOs1ow/viewform?usp=header"
+              className="flex justify-center w-full items-center text-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]"
+            >
               Enroll Now &rarr;
-            </button>
+            </a>
           </div>
         </div>
 
         <div className="hidden lg:flex">
-          <button className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C] hover:bg-slate-100 hover:border-red-500 duration-150">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfzjRKzW4FXap0_6RJjV4hN0UNYDtcZp5Ge2go97GdBHOs1ow/viewform?usp=header"
+            className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C] hover:bg-slate-100 hover:border-red-500 duration-150"
+          >
             Enroll Now &rarr;
-          </button>
+          </a>
         </div>
       </div>
     </nav>

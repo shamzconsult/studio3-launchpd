@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-center gap-8">
           <div className="flex flex-col gap-3">
             <Logo />
-            <p className="text-sm text-gray-600">
+            <p className="text-sm ">
               Empowering learners with quality, accessible, and engaging
               educational resources.
             </p>
@@ -56,8 +56,8 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gray-800 mb-4">Company</h4>
-            <ul className="space-y-5 text-gray-600">
+            <h4 className="font-semibold  mb-4">Company</h4>
+            <ul className="space-y-5 ">
               <li>
                 <a href="/about" className="hover:text-red-500">
                   About us
@@ -77,8 +77,8 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gray-800 mb-4">Courses</h4>
-            <ul className="space-y-5 text-gray-600">
+            <h4 className="font-semibold  mb-4">Courses</h4>
+            <ul className="space-y-5 ">
               <li>Software Development</li>
               <li>Web3 Development</li>
               <li>Product Management</li>
@@ -88,8 +88,8 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gray-800 mb-4">Resources</h4>
-            <ul className="space-y-5 text-gray-600">
+            <h4 className="font-semibold  mb-4">Resources</h4>
+            <ul className="space-y-5 ">
               <li>
                 <a href="/finance" className="hover:text-red-500">
                   Financial Aid
@@ -111,8 +111,8 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gray-800 mb-4">FAQs</h4>
-            <ul className="space-y-5 text-gray-600">
+            <h4 className="font-semibold  mb-4">FAQs</h4>
+            <ul className="space-y-5 ">
               <li>
                 <a href="/pricing" className="hover:text-red-500">
                   Pricing
@@ -133,7 +133,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="text-start text-gray-600 mt-12 border-t border-[#767676] pt-6 py-3">
+        <div className="text-start  mt-12 border-t border-[#767676] pt-6 py-3">
           © All rights reserved
         </div>
       </div>

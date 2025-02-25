@@ -41,13 +41,13 @@ export const FaqPage = () => {
           <h1 className="text-2xl md:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
           </h1>
-          <p className="text-gray-600 mt-4 font-medium max-w-sm">
+          <p className=" mt-4 font-medium max-w-sm">
             Empowering learners and teachers alike. Discover the path to success
             with us!
           </p>
           <div className="mt-4">
             <div className="relative max-w-7xl ">
-              <span className="absolute inset-y-0 left-2 flex items-center text-gray-400">
+              <span className="absolute inset-y-0 left-2 flex items-center ">
                 <SearchIcon className="h-5 w-5" />
               </span>
               <input
@@ -100,7 +100,7 @@ export const FaqPage = () => {
               </div>
             ))
           ) : (
-            <div className="text-center text-gray-500 font-bold py-24">
+            <div className="text-center  font-bold py-24">
               No results found for{" "}
               <span className="text-red-400"> &#34;{searchTerm}&#34; </span>
             </div>

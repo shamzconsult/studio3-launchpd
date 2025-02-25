@@ -4,7 +4,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #000000;
+  --foreground: #393939;
   --font-openSans: "Open Sans";
   --font-outfit: "Outfit";
 }
@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #000000;
+    --foreground: #393939;
   }
 }
 

@@ -11,10 +11,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
       <div className="p-4 lg:p-8 rounded-2xl shadow-2xl w-full md:w-[591px] mx-auto border-t-4 border-[#DA251C] mt-10">
         <form>
           <div className="mb-4">
-            <label
-              htmlFor="name"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
+            <label htmlFor="name" className="block text-sm font-medium  mb-2">
               Name
             </label>
             <input
@@ -27,10 +24,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
             />
           </div>
           <div className="mb-4">
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
+            <label htmlFor="email" className="block text-sm font-medium  mb-2">
               Email address
             </label>
             <input
@@ -45,7 +39,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-gray-700 mb-2"
+              className="block text-sm font-medium  mb-2"
             >
               Message
             </label>
