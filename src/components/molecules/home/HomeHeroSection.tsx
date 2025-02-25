@@ -19,9 +19,13 @@ export const HomeHeroSection = () => {
           growth!
         </p>
 
-        <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md hover:shadow-lg  transition duration-150 mt-4 lg:mt-0">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfzjRKzW4FXap0_6RJjV4hN0UNYDtcZp5Ge2go97GdBHOs1ow/viewform?usp=header"
+          target="blank"
+          className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md hover:shadow-lg  transition duration-150 mt-4 lg:mt-0"
+        >
           Get Started &rarr;
-        </button>
+        </a>
       </div>
 
       <div className="relative w-full h-[300px] lg:h-[400px] md:h-[500px] lg:w-[564px] ">

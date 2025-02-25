@@ -109,6 +109,7 @@ export const Navbar = () => {
           >
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfzjRKzW4FXap0_6RJjV4hN0UNYDtcZp5Ge2go97GdBHOs1ow/viewform?usp=header"
+              target="blank"
               className="flex justify-center w-full items-center text-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C]"
             >
               Enroll Now &rarr;
@@ -119,6 +120,7 @@ export const Navbar = () => {
         <div className="hidden lg:flex">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfzjRKzW4FXap0_6RJjV4hN0UNYDtcZp5Ge2go97GdBHOs1ow/viewform?usp=header"
+            target="blank"
             className="flex items-center px-4 text-[#DA251C] py-1 rounded-md border border-[#DA251C] hover:bg-slate-100 hover:border-red-500 duration-150"
           >
             Enroll Now &rarr;
