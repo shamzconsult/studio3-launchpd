@@ -1,4 +1,5 @@
 import { availablecourses } from "@/const/courses";
+import Link from "next/link";
 
 export const AvailableCourses = () => {
   return (
@@ -24,9 +25,9 @@ export const AvailableCourses = () => {
             </p>
             <h3 className="text-lg font-semibold mb-2">{course.title}</h3>
             <p className="text-gray-600">{course.description}</p>
-            <a href="/courses" className="inline-block mt-4 hover:underline">
+            <Link href="/courses" className="inline-block mt-4 hover:underline">
               Learn more &rarr;
-            </a>
+            </Link>
           </div>
         ))}
       </div>

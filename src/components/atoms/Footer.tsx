@@ -4,6 +4,7 @@ import { Instagram } from "../icons/Instagram";
 import { Logo } from "./Logo";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -59,19 +60,19 @@ export const Footer = () => {
             <h4 className="font-semibold  mb-4">Company</h4>
             <ul className="space-y-5 ">
               <li>
-                <a href="/about" className="hover:text-red-500">
+                <Link href="/about" className="hover:text-red-500">
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/team" className="hover:text-red-500">
+                <Link href="/team" className="hover:text-red-500">
                   Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-red-500">
+                <Link href="/contact" className="hover:text-red-500">
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -91,21 +92,21 @@ export const Footer = () => {
             <h4 className="font-semibold  mb-4">Resources</h4>
             <ul className="space-y-5 ">
               <li>
-                <a href="/finance" className="hover:text-red-500">
+                <Link href="/finance" className="hover:text-red-500">
                   Financial Aid
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/partner" className="hover:text-red-500">
+                <Link href="/partner" className="hover:text-red-500">
                   Partnership
-                </a>
+                </Link>
               </li>
               <li>Join as Tutor</li>
               <li>Services</li>
               <li>
-                <a href="/contact" className="hover:text-red-500">
+                <Link href="/contact" className="hover:text-red-500">
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -114,19 +115,19 @@ export const Footer = () => {
             <h4 className="font-semibold  mb-4">FAQs</h4>
             <ul className="space-y-5 ">
               <li>
-                <a href="/pricing" className="hover:text-red-500">
+                <Link href="/pricing" className="hover:text-red-500">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/courses" className="hover:text-red-500">
+                <Link href="/courses" className="hover:text-red-500">
                   Courses
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/faq" className="hover:text-red-500">
+                <Link href="/faq" className="hover:text-red-500">
                   Getting Started
-                </a>
+                </Link>
               </li>
               <li>Technical Support</li>
             </ul>
