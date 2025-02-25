@@ -246,51 +246,51 @@ export const courses: CourseType[] = [
     outcomesHeader:
       "In our UI/UX Design program, you will achieve the following key milestones:",
   },
-  {
-    id: "6",
-    title: "Product Marketing",
-    description:
-      " Learn how to craft compelling product stories, execute data-driven campaigns, and position products for success in competitive markets.",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
-    previewDescription:
-      "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
-    audienceDetails: [
-      {
-        icon: "FaHourglassStart",
-        text: "Ideal for beginners and aspiring data analysts.",
-      },
-      {
-        icon: "GiGears",
-        text: "Individuals with a basic understanding of programming and statistics.",
-      },
-      {
-        icon: "BsLightningCharge",
-        text: "Ideal for people looking to gain knowledge for career advancement.",
-      },
-      {
-        icon: "GiGiftOfKnowledge",
-        text: "Mid-career professionals looking to transition into tech.",
-      },
-      {
-        icon: "MdOutlineLightbulb",
-        text: "Individuals who want to develop their skills.",
-      },
-      {
-        icon: "MdOutlineLightMode",
-        text: "Ideal for beginners and aspiring data analysts.",
-      },
-    ],
-    outcomes: [
-      "Understand the core concepts of data analysis.",
-      "Machine Learning Techniques: Supervised and unsupervised learning.",
-      "Data Science Fundamentals: Data cleaning, visualization, and statistical analysis.",
-      "AI Applications: Neural networks, natural language processing, and computer vision.",
-      "Tools and Frameworks: Python, pandas, and more.",
-    ],
-    outcomesHeader:
-      "In our UI/UX Design program, you will achieve the following key milestones:",
-  },
+  // {
+  //   id: "6",
+  //   title: "Product Marketing",
+  //   description:
+  //     " Learn how to craft compelling product stories, execute data-driven campaigns, and position products for success in competitive markets.",
+  //   image:
+  //     "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
+  //   previewDescription:
+  //     "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
+  //   audienceDetails: [
+  //     {
+  //       icon: "FaHourglassStart",
+  //       text: "Ideal for beginners and aspiring data analysts.",
+  //     },
+  //     {
+  //       icon: "GiGears",
+  //       text: "Individuals with a basic understanding of programming and statistics.",
+  //     },
+  //     {
+  //       icon: "BsLightningCharge",
+  //       text: "Ideal for people looking to gain knowledge for career advancement.",
+  //     },
+  //     {
+  //       icon: "GiGiftOfKnowledge",
+  //       text: "Mid-career professionals looking to transition into tech.",
+  //     },
+  //     {
+  //       icon: "MdOutlineLightbulb",
+  //       text: "Individuals who want to develop their skills.",
+  //     },
+  //     {
+  //       icon: "MdOutlineLightMode",
+  //       text: "Ideal for beginners and aspiring data analysts.",
+  //     },
+  //   ],
+  //   outcomes: [
+  //     "Understand the core concepts of data analysis.",
+  //     "Machine Learning Techniques: Supervised and unsupervised learning.",
+  //     "Data Science Fundamentals: Data cleaning, visualization, and statistical analysis.",
+  //     "AI Applications: Neural networks, natural language processing, and computer vision.",
+  //     "Tools and Frameworks: Python, pandas, and more.",
+  //   ],
+  //   outcomesHeader:
+  //     "In our UI/UX Design program, you will achieve the following key milestones:",
+  // },
 ];
 
 export const coursesPrice: CourseType[] = [
@@ -519,51 +519,51 @@ export const coursesPrice: CourseType[] = [
     outcomesHeader:
       "In our UI/UX Design program, you will achieve the following key milestones:",
   },
-  {
-    id: "6",
-    title: "Product Marketing",
-    description: "6 months",
-    price: 500,
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
-    previewDescription:
-      "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
-    audienceDetails: [
-      {
-        icon: "FaHourglassStart",
-        text: "Ideal for beginners and aspiring data analysts.",
-      },
-      {
-        icon: "GiGears",
-        text: "Individuals with a basic understanding of programming and statistics.",
-      },
-      {
-        icon: "BsLightningCharge",
-        text: "Ideal for people looking to gain knowledge for career advancement.",
-      },
-      {
-        icon: "GiGiftOfKnowledge",
-        text: "Mid-career professionals looking to transition into tech.",
-      },
-      {
-        icon: "MdOutlineLightbulb",
-        text: "Individuals who want to develop their skills.",
-      },
-      {
-        icon: "MdOutlineLightMode",
-        text: "Ideal for beginners and aspiring data analysts.",
-      },
-    ],
-    outcomes: [
-      "Understand the core concepts of data analysis.",
-      "Machine Learning Techniques: Supervised and unsupervised learning.",
-      "Data Science Fundamentals: Data cleaning, visualization, and statistical analysis.",
-      "AI Applications: Neural networks, natural language processing, and computer vision.",
-      "Tools and Frameworks: Python, pandas, and more.",
-    ],
-    outcomesHeader:
-      "In our UI/UX Design program, you will achieve the following key milestones:",
-  },
+  // {
+  //   id: "6",
+  //   title: "Product Marketing",
+  //   description: "6 months",
+  //   price: 500,
+  //   image:
+  //     "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739784903/image_4_qchqvb.png",
+  //   previewDescription:
+  //     "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
+  //   audienceDetails: [
+  //     {
+  //       icon: "FaHourglassStart",
+  //       text: "Ideal for beginners and aspiring data analysts.",
+  //     },
+  //     {
+  //       icon: "GiGears",
+  //       text: "Individuals with a basic understanding of programming and statistics.",
+  //     },
+  //     {
+  //       icon: "BsLightningCharge",
+  //       text: "Ideal for people looking to gain knowledge for career advancement.",
+  //     },
+  //     {
+  //       icon: "GiGiftOfKnowledge",
+  //       text: "Mid-career professionals looking to transition into tech.",
+  //     },
+  //     {
+  //       icon: "MdOutlineLightbulb",
+  //       text: "Individuals who want to develop their skills.",
+  //     },
+  //     {
+  //       icon: "MdOutlineLightMode",
+  //       text: "Ideal for beginners and aspiring data analysts.",
+  //     },
+  //   ],
+  //   outcomes: [
+  //     "Understand the core concepts of data analysis.",
+  //     "Machine Learning Techniques: Supervised and unsupervised learning.",
+  //     "Data Science Fundamentals: Data cleaning, visualization, and statistical analysis.",
+  //     "AI Applications: Neural networks, natural language processing, and computer vision.",
+  //     "Tools and Frameworks: Python, pandas, and more.",
+  //   ],
+  //   outcomesHeader:
+  //     "In our UI/UX Design program, you will achieve the following key milestones:",
+  // },
 ];
 
 export const availablecourses = [
