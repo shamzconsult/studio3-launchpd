@@ -34,7 +34,7 @@ export const CourseCard = ({
             <div className="relative lg:w-[357px] h-[201px]">
               <Image src={course.image} alt={course.title} fill />
             </div>
-            <div className="flex flex-col justify-evenly gap-3 items-start p-2">
+            <section className="flex flex-col justify-evenly gap-3 items-start p-2">
               <div className="flex justify-between font-semibold w-full pr-3 mb-1">
                 <h3>{course.title}</h3>
                 {course.price !== undefined && <h3>${course.price}</h3>}
@@ -47,7 +47,7 @@ export const CourseCard = ({
                 Learn More
                 <MdOutlineKeyboardArrowRight className="px-1" size={28} />
               </Link>
-            </div>
+            </section>
           </Link>
         ))}
       </div>

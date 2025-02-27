@@ -26,7 +26,8 @@ export const courses: CourseType[] = [
       "Master frameworks and technologies including front-end and back-end development to build responsive and dynamic applications.",
 
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645994/Software_Engineering_nae6bb.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
     previewDescription:
       "Transform your ideas into reality by joining our Software Development track. This course takes you from the basics of coding to advanced software engineering principles, and gain proficiency in programming languages, software design, and problem-solving techniques as a frontend or backend developer.",
     audienceDetails: [
@@ -71,7 +72,8 @@ export const courses: CourseType[] = [
     description:
       "Explore data analysis, machine learning, and AI to solve complex problems with data-driven insights.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645933/Data_Analytics_htbvzn.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
     previewDescription:
       "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
     audienceDetails: [
@@ -117,7 +119,8 @@ export const courses: CourseType[] = [
     description:
       "Get hands-on experience with product tools, and develop skills to lead cross-functional teams navigate the entire product lifecycle.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645998/product_bgprz3.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
     previewDescription:
       "Gain the skills to lead product development from idea to launch. This course covers essential product management concepts, including market research, product strategy, and cross-functional team leadership, preparing you to deliver successful products in competitive markets.",
     audienceDetails: [
@@ -162,7 +165,8 @@ export const courses: CourseType[] = [
     description:
       "Build the future with web3, master frameworks in  building decentralized applications. ",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645987/web3_inzso9.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
     previewDescription:
       "Unlock the power of blockchain and decentralized technologies. Designed for aspiring Web3 developers and tech enthusiasts, this course covers everything from blockchain fundamentals to smart contract creation, equipping you with the skills to build decentralized applications (dApps) and contribute to the future of the internet.",
     audienceDetails: [
@@ -207,7 +211,8 @@ export const courses: CourseType[] = [
     description:
       "Master the art of intuitive design with hands-on projects in wireframing, prototyping, and user research.",
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740646735/UIux-min_qmqsro.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
     previewDescription:
       "Master the art of creating intuitive, user-centered digital experiences. This course guides you through the fundamentals of user research, wireframing, prototyping, and visual design, helping you craft engaging interfaces that prioritize functionality and aesthetics.",
     audienceDetails: [
@@ -300,7 +305,8 @@ export const coursesPrice: CourseType[] = [
     description: "6 months",
     price: 500,
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645994/Software_Engineering_nae6bb.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462236/edutech/edutech-new/unsplash_JKUTrJ4vK00-3_lhj5bi.png",
     previewDescription:
       "Transform your ideas into reality by joining our Software Development track. This course takes you from the basics of coding to advanced software engineering principles, and gain proficiency in programming languages, software design, and problem-solving techniques as a frontend or backend developer.",
     audienceDetails: [
@@ -345,7 +351,8 @@ export const coursesPrice: CourseType[] = [
     description: "6 months",
     price: 500,
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645933/Data_Analytics_htbvzn.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00_z7cffp.png",
     previewDescription:
       "Unlock the power of data and artificial intelligence, Designed for aspiring data scientists and AI enthusiasts, this course blends live instruction, hands-on projects, and collaborative learning to equip you with the skills needed to solve real-world problems.",
     audienceDetails: [
@@ -390,7 +397,8 @@ export const coursesPrice: CourseType[] = [
     description: "6 months",
     price: 500,
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645998/product_bgprz3.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462235/edutech/edutech-new/unsplash_JKUTrJ4vK00-1_hkzi93.png",
     previewDescription:
       "Gain the skills to lead product development from idea to launch. This course covers essential product management concepts, including market research, product strategy, and cross-functional team leadership, preparing you to deliver successful products in competitive markets.",
     audienceDetails: [
@@ -435,7 +443,8 @@ export const coursesPrice: CourseType[] = [
     description: "6 months ",
     price: 500,
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740645987/web3_inzso9.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00_cgvkao.png",
     previewDescription:
       "Unlock the power of blockchain and decentralized technologies. Designed for aspiring Web3 developers and tech enthusiasts, this course covers everything from blockchain fundamentals to smart contract creation, equipping you with the skills to build decentralized applications (dApps) and contribute to the future of the internet.",
     audienceDetails: [
@@ -480,7 +489,8 @@ export const coursesPrice: CourseType[] = [
     description: "6 months",
     price: 500,
     image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
+      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1740646735/UIux-min_qmqsro.jpg",
+    // "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739338286/edutech/unsplash_JKUTrJ4vK00-1_fczqpl.png",
     previewDescription:
       "Master the art of creating intuitive, user-centered digital experiences. This course guides you through the fundamentals of user research, wireframing, prototyping, and visual design, helping you craft engaging interfaces that prioritize functionality and aesthetics.",
     audienceDetails: [
