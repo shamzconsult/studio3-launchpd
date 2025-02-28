@@ -33,7 +33,7 @@ export const PreviewHero = ({ courseData }: { courseData: CourseType }) => {
             </div>
           </div>
 
-          <div className="flex-1 text-left bg-[#FAFAFA] rounded-xl border border-gray-500  p-4">
+          <div className="flex-1 text-left text-[#393939] bg-[#FAFAFA] rounded-xl border border-gray-500  p-4">
             <ul className="font-medium   grid grid-cols-2 gap-3 justify-center items-center">
               <li className="flex items-center gap-1">
                 <HiOutlineLocationMarker /> Online
