@@ -9,7 +9,7 @@ import { courses } from "@/const/courses";
 import { useState } from "react";
 
 export const Footer = () => {
-  const [course, setCourse] = useState(courses);
+  const [course] = useState(courses);
 
   return (
     <footer className="mt-20 md:mt-32 bg-white">
