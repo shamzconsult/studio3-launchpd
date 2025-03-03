@@ -36,10 +36,10 @@ export const ProgramStructure = () => {
             key={index}
             className="flex flex-col items-center text-center p-4 gap-2"
           >
-            <div className="text-2xl p-2 bg-[#FFD0CD] rounded-lg">
+            <div className="text-2xl p-2 bg-[#FFD0CD] rounded-full">
               <feature.icon />
             </div>
-            <h3 className="text-lg font-semibold">{feature.title}</h3>
+            <h3 className="text-lg font-bold">{feature.title}</h3>
             <p>{feature.description}</p>
           </div>
         ))}

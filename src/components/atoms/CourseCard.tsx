@@ -27,22 +27,24 @@ export const CourseCard = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {visibleCourses.map((course, index) => (
           <Link
-            href={`/courses/${course.id}`}
+            href={`/courses/${course.slug}`}
             key={index}
             className="rounded-lg overflow-hidden border  border-[#d4d4d4] lg:w-[357px] hover:shadow-md"
           >
             <div className="relative lg:w-[357px] h-[201px]">
               <Image src={course.image} alt={course.title} fill />
             </div>
-            <section className="flex flex-col justify-evenly gap-3 items-start p-2">
-              <div className="flex justify-between font-semibold w-full pr-3 mb-1">
-                <h3>{course.title}</h3>
-                {course.price !== undefined && <h3>${course.price}</h3>}
+            <section className="flex flex-col flex-1  justify-evenly gap-3 items-start p-2">
+              <div className="flex-1">
+                <div className="flex justify-between font-semibold w-full pr-3 mb-1">
+                  <h3>{course.title}</h3>
+                  {course.price !== undefined && <h3>${course.price}</h3>}
+                </div>
+                <p className="text-[#747474] text-sm ">{course.description}</p>
               </div>
-              <p className="text-[#747474] text-sm ">{course.description}</p>
               <Link
-                href={`/courses/${course.id}`}
-                className="text-[#DA251C]  hover:underline flex items-center group"
+                href={`/courses/${course.slug}`}
+                className="text-[#DA251C]  hover:underline flex items-center group "
               >
                 Learn More
                 <MdOutlineKeyboardArrowRight className="px-1" size={28} />

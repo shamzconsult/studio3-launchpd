@@ -36,7 +36,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
             {visibleTestimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="w-full flex-shrink-0 p-6 border rounded-lg shadow-sm"
+                className="w-full flex-shrink-0 flex-1 p-6 border rounded-lg shadow-sm"
               >
                 <p className="text-[#747474] mb-4">{testimonial.message}</p>
                 <div className="flex items-center mt-4">

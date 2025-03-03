@@ -14,9 +14,9 @@ const getRandomCourses = (courses: CourseType[], num: number) => {
   return shuffled.slice(0, num);
 };
 
-export const PreviewCourse = async ({ id }: { id: string }) => {
+export const PreviewCourse = async ({ slug }: { slug: string }) => {
   const courseData = courses.find((course) => {
-    return course.id == id;
+    return course.slug == slug;
   });
   if (!courseData) {
     return (

@@ -5,8 +5,12 @@ import { Logo } from "./Logo";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import { courses } from "@/const/courses";
+import { useState } from "react";
 
-export const Footer = () => {
+export const Footer = ({ slug }: { slug: string }) => {
+  const [course, setCourse] = useState(courses);
+
   return (
     <footer className="mt-20 md:mt-32 bg-white">
       <div className="max-w-6xl mx-auto px-6 py-4">
@@ -79,13 +83,13 @@ export const Footer = () => {
 
           <div>
             <h4 className="font-semibold  mb-4">Courses</h4>
-            <ul className="space-y-5 ">
-              <li>Software Development</li>
-              <li>Web3 Development</li>
-              <li>Product Management</li>
-              <li>Data Analytics</li>
-              <li>UI/UX Design</li>
-            </ul>
+            <div className="flex flex-col space-y-5">
+              {course.map((course, index) => (
+                <Link key={index} href={`/courses/${course.slug}`}>
+                  {course.title}
+                </Link>
+              ))}
+            </div>
           </div>
 
           <div>
