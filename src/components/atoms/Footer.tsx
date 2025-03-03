@@ -8,7 +8,7 @@ import Link from "next/link";
 import { courses } from "@/const/courses";
 import { useState } from "react";
 
-export const Footer = ({ slug }: { slug: string }) => {
+export const Footer = () => {
   const [course, setCourse] = useState(courses);
 
   return (
