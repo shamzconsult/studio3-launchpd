@@ -599,24 +599,3 @@ export const availablecourses = [
       "Master the art of building great products by joining our Product Management track. Learn to define product strategies, and lead cross-functional teams to deliver impactful solutions. Get hands-on experience with product tools, and develop skills to navigate the entire product lifecycle.",
   },
 ];
-
-export const tutors = [
-  {
-    id: 1,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
-    name: "Helen Young",
-    role: "UX Write - Google",
-  },
-  {
-    id: 2,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
-    name: "Helen Young",
-    role: "Tutor",
-  },
-  {
-    id: 3,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371046/edutech/Frame_1000003618_oqyntx.png",
-    name: "Helen Young",
-    role: "UX Write - Google",
-  },
-];

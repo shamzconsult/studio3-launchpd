@@ -1,7 +1,8 @@
-import { tutors } from "@/const/courses";
+import { team } from "@/const/team";
 import Image from "next/image";
 
 export const Tutors = () => {
+  const firstThreeTeam = team.slice(0, 3);
   return (
     <div className="max-w-6xl mx-auto py-20 px-4">
       <p className=" font-thin">EXPERT TUTORS</p>
@@ -16,7 +17,7 @@ export const Tutors = () => {
         including:
       </p>
       <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto lg:mt-8">
-        {tutors.map((tutor, index) => (
+        {firstThreeTeam.map((tutor, index) => (
           <div
             key={index}
             className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[360px] "
@@ -26,7 +27,7 @@ export const Tutors = () => {
             </div>
             <div className="p-4">
               <h3 className="font-semibold mb-1">{tutor.name}</h3>
-              <p className="text-sm mb-2">{tutor.role}</p>
+              <p className="text-sm mb-2">{tutor.position}</p>
             </div>
           </div>
         ))}

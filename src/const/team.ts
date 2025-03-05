@@ -7,8 +7,8 @@ export const team = [
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1738138714/edutech/Frame_1000003618_1_xxyk4r.png",
-    name: "Helen Young",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1741179041/Team_1_dw55dy.jpg",
+    name: "Imam Bashir Abdulwahab",
     position: "Program manager",
   },
   {
