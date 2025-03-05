@@ -38,7 +38,7 @@ export const AboutHeroSection = () => {
         </div>
         <div className="w-full h-[250px] lg:h-[500px] relative ">
           <Image
-            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464191/edutech/edutech-new/Frame_1000003593_efwee9.png"
+            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1741164676/Frame_1000003593_zrmhq7.png"
             alt="Students Learning"
             fill
           />
