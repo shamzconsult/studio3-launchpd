@@ -26,13 +26,4 @@ export const testimonials = [
     image:
       "https://res.cloudinary.com/dcgghkk7q/image/upload/v1737462871/edutech/edutech-new/Avatar-1_dbd3tp.png",
   },
-  {
-    id: 4,
-    message:
-      "Enrolling in this cohort was a pivotal moment in my career. The mentors provided me with the resources and support I needed to pivot from a non-tech role to a software engineer.",
-    name: "Abdulazeez Lawal",
-    role: "Software Engineer",
-    image:
-      "https://res.cloudinary.com/dcgghkk7q/image/upload/v1739339198/edutech/Avatar-2_fuqjgn.png",
-  },
 ];
