@@ -35,7 +35,7 @@ export const CourseCard = ({
               <Image src={course.image} alt={course.title} fill />
             </div>
             <section className="flex flex-col flex-1  justify-evenly gap-3 items-start p-2">
-              <div className="flex-1">
+              <div className="flex-1 w-full">
                 <div className="flex justify-between font-semibold w-full pr-3 mb-1">
                   <h3>{course.title}</h3>
                   {course.price !== undefined && <h3>${course.price}</h3>}
