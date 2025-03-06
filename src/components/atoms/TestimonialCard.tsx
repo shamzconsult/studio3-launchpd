@@ -97,7 +97,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
       </div>
 
       {testimonials.length > 4 && (
-        <div className="hidden md:block text-center mt-12">
+        <div className="hidden md:block text-center mt-11">
           <button
             className="text-[#DA251C] hover:underline"
             onClick={() => setShowMore(!showMore)}
