@@ -19,7 +19,7 @@ export const CourseCard = ({
 
   const visibleCourses = showMore ? explorecourses : explorecourses.slice(0, 6);
   return (
-    <div className="">
+    <div id="price">
       {header && (
         <h1 className="text-3xl font-bold text-left mb-10">{header}</h1>
       )}

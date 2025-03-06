@@ -1,6 +1,12 @@
 import Image from "next/image";
 
 export const PartnerHero = () => {
+  const handleScroll = () => {
+    const targetElement = document.getElementById("form");
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="w-full bg-[#FFF6EF]">
       <section className="max-w-6xl  mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-between lg:items-center mt-12 w-full lg:mt-20 px-4 lg:px-0  ">
@@ -12,7 +18,10 @@ export const PartnerHero = () => {
             &#34;Empowering education, transforming lives, and driving
             success—together.&#34;
           </p>
-          <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition">
+          <button
+            onClick={handleScroll}
+            className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition"
+          >
             Get in touch &rarr;
           </button>
         </div>

@@ -119,12 +119,12 @@ export const Footer = () => {
             <h4 className="font-semibold  mb-4">FAQs</h4>
             <ul className="space-y-5 ">
               <li>
-                <Link href="/pricing" className="hover:text-red-500">
+                <Link href="/faq" className="hover:text-red-500">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="/courses" className="hover:text-red-500">
+                <Link href="/faq" className="hover:text-red-500">
                   Courses
                 </Link>
               </li>
@@ -133,7 +133,11 @@ export const Footer = () => {
                   Getting Started
                 </Link>
               </li>
-              <li>Technical Support</li>
+              <li>
+                <Link href="/faq" className="hover:text-red-500">
+                  Technical Support
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
