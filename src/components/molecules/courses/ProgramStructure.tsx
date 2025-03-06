@@ -26,8 +26,8 @@ export const ProgramStructure = () => {
       <div className="text-center">
         <h2 className="text-3xl font-bold">Program Structure</h2>
         <p className=" mt-2">
-          We provide affordable plans, and offer payment options that would help
-          you
+          We provide structured programs activities to give you the best
+          learning experience
         </p>
       </div>
       <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-6 ">
