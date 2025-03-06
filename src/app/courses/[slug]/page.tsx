@@ -4,9 +4,9 @@ import { getDynamicParams } from "@/utils/Server";
 export default async function Page({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: Promise<{ slug: string }>;
 }) {
-  const { id } = await getDynamicParams(params);
+  const { slug } = await getDynamicParams(params);
 
-  return <PreviewCourse id={id} />;
+  return <PreviewCourse slug={slug} />;
 }

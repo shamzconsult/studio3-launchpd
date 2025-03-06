@@ -2,6 +2,12 @@ import Image from "next/image";
 import React from "react";
 
 export const PricingHeroSection = () => {
+  const handleScroll = () => {
+    const targetElement = document.getElementById("price");
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="max-w-6xl mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-between lg:items-center mt-12 w-full px-4 lg:mt-20 lg:px-0">
       <div className="max-w-xl">
@@ -13,7 +19,10 @@ export const PricingHeroSection = () => {
           Empowering learners and teachers alike. Discover the path to success
           with us!
         </p>
-        <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition">
+        <button
+          onClick={handleScroll}
+          className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg hover:bg-red-600 transition"
+        >
           See prices &rarr;
         </button>
       </div>

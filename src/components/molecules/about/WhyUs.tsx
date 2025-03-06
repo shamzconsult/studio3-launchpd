@@ -34,8 +34,9 @@ export const WhyUs = () => {
           </h1>
           <div className=" w-full h-[250px] lg:w-[600px] lg:h-[450px] relative">
             <Image
-              src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737371047/edutech/Frame_1000003558_e5orsr.png"
+              src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1740992389/choose-us-min_wnyose.jpg"
               alt="Students Learning"
+              className="rounded-lg"
               fill
             />
           </div>

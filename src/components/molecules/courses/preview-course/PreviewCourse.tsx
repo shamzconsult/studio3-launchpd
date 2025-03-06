@@ -8,19 +8,28 @@ import FAQ from "@/components/atoms/FAQs";
 import { CourseCard } from "@/components/atoms/CourseCard";
 import { courses, CourseType } from "@/const/courses";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
+import Link from "next/link";
 
 const getRandomCourses = (courses: CourseType[], num: number) => {
   const shuffled = courses.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, num);
 };
 
-export const PreviewCourse = async ({ id }: { id: string }) => {
+export const PreviewCourse = async ({ slug }: { slug: string }) => {
   const courseData = courses.find((course) => {
-    return course.id == id;
+    return course.slug == slug;
   });
   if (!courseData) {
     return (
-      <div className="text-center font-bold h-screen">Course not found</div>
+      <div className=" h-screen mt2 flex flex-col justify-center items-center">
+        <h1 className="text-center font-bold  ">Course not found</h1>
+        <Link
+          className="text-sm text-slate-400 hover:underline cursor-pointer"
+          href="/courses"
+        >
+          Click here to check other courses
+        </Link>
+      </div>
     );
   }
 

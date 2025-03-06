@@ -82,7 +82,7 @@ export const LearningOutcomes = ({
               key={index}
               className="flex flex-col items-center text-center p-4 gap-2"
             >
-              <div className="text-2xl p-2 bg-[#FFD0CD] rounded-lg">
+              <div className="text-2xl p-2 bg-[#FFD0CD] rounded-full">
                 <feature.icon />
               </div>
               <h3 className="text-lg font-semibold ">{feature.title}</h3>

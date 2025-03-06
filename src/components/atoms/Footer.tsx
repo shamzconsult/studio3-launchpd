@@ -5,8 +5,12 @@ import { Logo } from "./Logo";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import { courses } from "@/const/courses";
+import { useState } from "react";
 
 export const Footer = () => {
+  const [course] = useState(courses);
+
   return (
     <footer className="mt-20 md:mt-32 bg-white">
       <div className="max-w-6xl mx-auto px-6 py-4">
@@ -79,13 +83,13 @@ export const Footer = () => {
 
           <div>
             <h4 className="font-semibold  mb-4">Courses</h4>
-            <ul className="space-y-5 ">
-              <li>Software Development</li>
-              <li>Web3 Development</li>
-              <li>Product Management</li>
-              <li>Data Analytics</li>
-              <li>UI/UX Design</li>
-            </ul>
+            <div className="flex flex-col space-y-5">
+              {course.map((course, index) => (
+                <Link key={index} href={`/courses/${course.slug}`}>
+                  {course.title}
+                </Link>
+              ))}
+            </div>
           </div>
 
           <div>
@@ -115,12 +119,12 @@ export const Footer = () => {
             <h4 className="font-semibold  mb-4">FAQs</h4>
             <ul className="space-y-5 ">
               <li>
-                <Link href="/pricing" className="hover:text-red-500">
+                <Link href="/faq" className="hover:text-red-500">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="/courses" className="hover:text-red-500">
+                <Link href="/faq" className="hover:text-red-500">
                   Courses
                 </Link>
               </li>
@@ -129,7 +133,11 @@ export const Footer = () => {
                   Getting Started
                 </Link>
               </li>
-              <li>Technical Support</li>
+              <li>
+                <Link href="/faq" className="hover:text-red-500">
+                  Technical Support
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

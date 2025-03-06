@@ -16,9 +16,10 @@ export const AboutHeroSection = () => {
         </div>
         <div className="relative w-full h-[250px] lg:w-[480px] lg:h-[340px] md:mt-12">
           <Image
-            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464190/edutech/edutech-new/Frame_1000003558_fft2qw.png"
+            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1740992811/course-hero-min_mmsiry.jpg"
             alt="Students Learning"
             fill
+            className="rounded-lg"
           />
         </div>
       </section>
@@ -37,7 +38,7 @@ export const AboutHeroSection = () => {
         </div>
         <div className="w-full h-[250px] lg:h-[500px] relative ">
           <Image
-            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1737464191/edutech/edutech-new/Frame_1000003593_efwee9.png"
+            src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1741164676/Frame_1000003593_zrmhq7.png"
             alt="Students Learning"
             fill
           />
