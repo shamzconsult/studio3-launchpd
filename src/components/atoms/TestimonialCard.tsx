@@ -27,30 +27,35 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
       )}
 
       {/* Mobile Carousel View */}
-      <div className="md:hidden relative">
-        <div className="overflow-hidden">
-          <div
-            className="flex transition-transform duration-300 ease-in-out"
+      <div className="md:hidden relative w-full">
+        <div className="overflow-hidden w-full">
+          <div 
+            className="flex w-full transition-transform duration-300 ease-in-out"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
             {visibleTestimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="w-full flex-shrink-0 p-6 border rounded-lg shadow-sm"
+              <div 
+                key={index} 
+                className="w-full min-w-full flex-shrink-0 p-6 border rounded-lg shadow-sm"
               >
-                <p className="text-[#747474] mb-4">{testimonial.message}</p>
+                <p className="text-[#747474] mb-4 break-words">
+                  &quot;{testimonial.message}&quot;
+                </p>
                 <div className="flex items-center mt-4">
-                  <div className="w-12 h-12 rounded-full mr-4">
+                  <div className="w-12 h-12 rounded-full mr-4 overflow-hidden relative">
                     <Image
                       src={testimonial.image}
                       alt={testimonial.name}
                       width={100}
                       height={100}
+                      className="object-cover w-full h-full"
+                      loading="eager"
+                      priority={index === 0}
                     />
                   </div>
                   <div>
                     <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-sm ">{testimonial.role}</p>
+                    <p className="text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </div>
               </div>
@@ -58,7 +63,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
           </div>
         </div>
 
-        {/*Mobile Carousel Dot Navigation here */}
+        {/*Mobile Carousel Dot Navigation */}
         <div className="flex justify-center gap-2 mt-4">
           {[0, 1, 2].map((dot) => (
             <button
@@ -73,7 +78,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
         </div>
       </div>
 
-      {/*This is the Desktop View here */}
+    
       <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {visibleTestimonials.map((testimonial, index) => (
           <div key={index} className="p-6 border rounded-lg shadow-sm">
@@ -96,7 +101,7 @@ export const TestimonialCard = ({ title = "" }: TestimonialCardProps) => {
         ))}
       </div>
 
-      {testimonials.length > 4 && (
+      {testimonials.length > 3 && (
         <div className="hidden md:block text-center mt-11">
           <button
             className="text-[#DA251C] hover:underline"
