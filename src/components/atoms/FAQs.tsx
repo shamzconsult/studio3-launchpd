@@ -22,17 +22,24 @@ export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
   return (
     <section className="py-20  ">
       <div className="max-w-4xl mx-auto text-center mb-8">
-        <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
+        <h2 className="text-[20px] md:text-2xl lg:text-3xl px-1 font-bold">
+          Frequently Asked Questions
+        </h2>
       </div>
 
       <div className="max-w-3xl mx-auto space-y-4 px-6">
         {displayedFAQs.map((faq, index) => (
-          <div key={index} className="border-b border-gray-300 text-[#393939]">
+          <div
+            key={index}
+            className="border-b text-[12px] md:text-[14px] lg:text-[16px] border-gray-300 text-[#393939]"
+          >
             <button
               onClick={() => toggleExpand(index)}
               className="w-full py-4 text-left flex justify-between items-center focus:outline-none"
             >
-              <span className="font-bold ">{faq.question}</span>
+              <span className="font-bold text-[14px] md:text-[18px] lg:text-[20px] ">
+                {faq.question}
+              </span>
               <span className="font-bold">
                 {expandedIndex === index ? (
                   <MdKeyboardArrowUp size={24} />
@@ -42,7 +49,7 @@ export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
               </span>
             </button>
             {expandedIndex === index && (
-              <div className="pb-4 text-[14px] max-w-2xl">
+              <div className="pb-4  max-w-2xl">
                 <p>{faq.answer}</p>
               </div>
             )}

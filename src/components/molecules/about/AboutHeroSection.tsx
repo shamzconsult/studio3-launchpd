@@ -5,10 +5,10 @@ export const AboutHeroSection = () => {
     <div className="max-w-6xl mx-auto  px-4 py-20 lg:mt-20 lg:px-0">
       <section className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="max-w-xl mt-10">
-          <h1 className="text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold  mb-4">
+          <h1 className="text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold  mb-4">
             Where ambition meets opportunity!
           </h1>
-          <h4 className="text-lg max-w-3xl">
+          <h4 className="text-[12px] md:text-[14px] lg:text-[16px] max-w-3xl">
             Bridging the gap between potential and achievement by offering
             immersive, hands-on learning experiences that prepare learners for
             real-world challenges in the tech industry.
@@ -25,10 +25,10 @@ export const AboutHeroSection = () => {
       </section>
       <section className="mt-32 flex flex-col gap-8 p-2 md:p-6 bg-red-50 border border-gray-300 rounded-lg ">
         <div className="flex flex-col lg:flex-row items-start gap-3">
-          <h1 className="text-3xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4">
+          <h1 className="text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4">
             Train, Empower, Equip, Build
           </h1>
-          <h4 className="max-w-xl">
+          <h4 className="max-w-xl text-[12px] md:text-[14px] lg:text-[16px]">
             Our goal is to empower young individuals aged 15-35 with the skills
             they need to thrive in today&#8217;s technology-driven world. Our
             mission is to bridge the gap between potential and achievement by

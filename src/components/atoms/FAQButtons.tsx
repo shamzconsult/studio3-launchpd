@@ -36,7 +36,7 @@ export const FAQButtons = ({
     }`;
   return (
     <div
-      className="lg:max-w-4xl mx-auto text-center font-medium mb-8 flex justify-center items-center gap-4 
+      className="mx-auto text-center font-medium mb-8 flex justify-center items-center gap-4 
       overflow-x-auto whitespace-nowrap flex-nowrap scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 px-2 py-2"
     >
       <button

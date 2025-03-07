@@ -5,16 +5,17 @@ export const Tutors = () => {
   const firstThreeTeam = team.slice(0, 3);
   return (
     <div className="max-w-6xl mx-auto py-20 px-4">
-      <p className=" font-thin">EXPERT TUTORS</p>
-      <h1 className="mt-3 text-2xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold  max-w-3xl">
-        Learn from Industry Experts
+      <p className="font-thin text-[10px] md:text-[12px] lg:text-[14px]">
+        EXPERT TEAM
+      </p>
+      <h1 className="mt-3 text-[24px] md:text-[32px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold  max-w-3xl">
+        The Team Behind it all
       </h1>
-      <p className="mt-3 max-w-4xl lg:mt-6">
-        We are bridging the gap between potential and achievement by offering
-        immersive, hands-on learning experiences that prepare learners for
-        real-world challenges in the tech industry. We offer structured,
-        cohort-based training programs in a variety of tech disciplines,
-        including:
+      <p className="mt-3 max-w-4xl text-[12px] md:text-[14px] lg:text-[16px] lg:mt-6">
+        Our team is a dynamic mix of industry experts and educators, united by a
+        passion for empowering the next generation of tech talent. Our mission
+        is simple: to provide hands-on, industry-relevant training that prepares
+        learners for high-demand careers.
       </p>
       <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto lg:mt-8">
         {firstThreeTeam.map((tutor, index) => (

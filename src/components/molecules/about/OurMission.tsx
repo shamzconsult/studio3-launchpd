@@ -23,13 +23,13 @@ export const OurMission = () => {
             <p className="bg-[#FFECBF] p-2 rounded-lg w-fit mb-2">
               OUR MISSION
             </p>
-            <p className="max-w-2xl">
+            <p className="max-w-2xl text-[12px] md:text-[14px] lg:text-[16px]">
               We are on a mission of equipping young individuals with the
               skills, knowledge, and confidence to unlock their potential and
               drive change in the tech industry and beyond.
             </p>
           </div>
-          <h1 className="text-2xl md:text-4xl  lg:text-6xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 ">
+          <h1 className="text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 ">
             Unlock Your Potential, One Skill at a Time
           </h1>
         </section>

@@ -13,7 +13,9 @@ export const Help = () => {
   return (
     <div className="text-center py-20 bg-red-100">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
-        <h2 className="text-2xl font-semibold mb-4">Still Need our Help?</h2>
+        <h2 className="text-[20px] md:text-3xl font-semibold mb-4">
+          Still Need our Help?
+        </h2>
         <div className="flex flex-col md:flex-row  justify-center gap-4 w-full lg:w-fit px-4">
           <button
             onClick={handleCallClick}

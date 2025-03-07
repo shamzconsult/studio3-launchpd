@@ -21,15 +21,19 @@ export const WhyUs = () => {
                 </span>
               </div>
               <div className="">
-                <h3 className="text-lg font-semibold ">{feature.title}</h3>
-                <p className="text-[#FAFAFA]">{feature.description}</p>
+                <h3 className="text-[16px] md:text-[18px] lg:text-[20px] font-bold ">
+                  {feature.title}
+                </h3>
+                <p className="text-[#FAFAFA] text-[12px] md:text-[16px] lg:text-[20px]">
+                  {feature.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
         <div className="flex flex-col gap-3">
           <p className=" text-[#FAFAFA]"> WHY CHOOSE STUDIO3 LAUNCHPAD</p>
-          <h1 className="text-2xl md:text-4xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 max-w-2xl">
+          <h1 className="text-[24px] md:text-[32px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 max-w-2xl">
             A blend of theoretical knowledge and practical applications.
           </h1>
           <div className=" w-full h-[250px] lg:w-[600px] lg:h-[450px] relative">

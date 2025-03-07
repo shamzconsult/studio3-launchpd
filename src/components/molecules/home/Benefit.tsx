@@ -3,7 +3,7 @@ import { benefits } from "@/const/benefits";
 
 export const Benefit = () => {
   return (
-    <section className="py-20">
+    <section className="">
       <BenefitCards
         header="Benefits"
         subheader="Some of the benefits of learning with us."
@@ -11,15 +11,17 @@ export const Benefit = () => {
       />
 
       <div
-        className="py-32 mt-16 bg-cover bg-center relative flex items-center justify-center px-4 lg:px-0"
+        className="py-32 bg-cover bg-center relative flex items-center justify-center px-4 lg:px-0"
         style={{
           backgroundImage:
             "url('https://res.cloudinary.com/dcgghkk7q/image/upload/v1737375235/edutech/Header_Text_toijhd.png')",
         }}
       >
         <div className="relative text-center">
-          <h1 className="text-2xl md:text-4xl font-bold">Financial Aid</h1>
-          <p className="mt-2 text-xl md:text-2xl font-medium max-w-4xl mx-auto  ">
+          <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-bold">
+            Financial Aid
+          </h1>
+          <p className="mt-2 text-[12px] md:text-[14px] lg:text-[16px] font-medium max-w-4xl mx-auto  ">
             Looking for financial support to boost your learning journey?
             Discover our financial aid options and join our Studio3 Launchpad
             community today!
