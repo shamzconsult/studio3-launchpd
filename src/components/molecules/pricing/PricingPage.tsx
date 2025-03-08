@@ -16,10 +16,12 @@ export const PricingPage = () => {
   return (
     <div className="">
       <PricingHeroSection />
-      <section className="py-20 px-4 ">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold"> Find the right Course for You</h1>
-          <p className="text-xl mt-2">
+      <section className="lg:py-20 px-4 ">
+        <div className="text-center mb-6 md:mb-12">
+          <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-bold">
+            Find the right Course for You
+          </h1>
+          <p className="text-[14px] md:text-[16px] mt-2">
             Hey there! Want to level up? kickstart you tech career with Studio3
             Launchpad today!
           </p>

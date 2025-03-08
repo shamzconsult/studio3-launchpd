@@ -61,17 +61,21 @@ export const LearningOutcomes = ({
           ))}
         </ul>
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold  mb-4 lg:text-nowrap">
+          <h2 className="text-[24px] md:text-[40px] lg:text-5xl font-bold  mb-4 lg:text-nowrap">
             Learning Outcomes
           </h2>
-          <p className=" mb-8">{courseData.outcomesHeader || ""}</p>
+          <p className=" mb-8 text-[14px] md:text-[16px]">
+            {courseData.outcomesHeader || ""}
+          </p>
         </div>
       </div>
 
       <section className="max-w-6xl mx-auto py-10 lg:py-24 mt-24 lg:mt-56 px-4 bg-[#FFF6EF] rounded-xl border border-gray-400">
         <div className="text-center">
-          <h2 className="text-3xl font-bold">Program Structure</h2>
-          <p className=" mt-2">
+          <h2 className="text-[28px]  md:text-[32px] font-bold">
+            Program Structure
+          </h2>
+          <p className="text-[14px] md:text-[16px] mt-2">
             We provide affordable plans, and offer payment options that would
             help you
           </p>
@@ -85,8 +89,12 @@ export const LearningOutcomes = ({
               <div className="text-2xl p-2 bg-[#FFD0CD] rounded-full">
                 <feature.icon />
               </div>
-              <h3 className="text-lg font-semibold ">{feature.title}</h3>
-              <p>{feature.description}</p>
+              <h3 className="text-[16px] md:text-[20px] font-semibold ">
+                {feature.title}
+              </h3>
+              <p className="text-[14px] md:text-[16px]">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>

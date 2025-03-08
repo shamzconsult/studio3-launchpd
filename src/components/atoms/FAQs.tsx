@@ -31,7 +31,7 @@ export const FAQ = ({ faqData }: { faqData: FAQItem[] }) => {
         {displayedFAQs.map((faq, index) => (
           <div
             key={index}
-            className="border-b text-[12px] md:text-[14px] lg:text-[16px] border-gray-300 text-[#393939]"
+            className="border-b text-[14px] md:text-[16px] border-gray-300 text-[#393939]"
           >
             <button
               onClick={() => toggleExpand(index)}

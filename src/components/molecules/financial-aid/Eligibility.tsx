@@ -3,24 +3,24 @@ import React from "react";
 
 export const Eligibility = () => {
   return (
-    <div className="bg-[#FBE9E8]">
-      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-20 px-4 lg:px-0">
-        <div className="relative lg:w-[560px] h-[374px]  ">
+    <div className="bg-[#FBE9E8] mt-10">
+      <section className="max-w-6xl mx-auto flex flex-col justify-center lg:flex-row gap-12 py-8 lg:py-20 px-4 lg:px-0">
+        <div className="relative lg:w-[560px] h-[300px]  ">
           <Image
             src="https://res.cloudinary.com/dcgghkk7q/image/upload/v1738565030/edutech/Frame_1000003601_xd0srm.png"
             alt="Students Learning"
             fill
           />
         </div>
-        <div className="max-w-xl flex flex-col gap-3">
-          <h1 className="text-3xl mb-4  md:text-4xl font-extrabold leading-normal md:leading-[40px]">
+        <div className="max-w-xl flex flex-col gap-2">
+          <h1 className="text-[24px] mb-4  md:text-[32px] font-bold leading-normal md:leading-[40px]">
             Eligibility Criteria
           </h1>
-          <p>
+          <p className="text-[14px] md:text-[16px]">
             To qualify for financial aid, applicants must meet the following
             requirements:
           </p>
-          <ul className=" list-disc lg:px-8 flex flex-col gap-2 px-4 ">
+          <ul className=" list-disc text-[14px] md:text-[16px] lg:px-8 flex flex-col gap-2 pl-4 mt-3 ">
             <li>
               <span className="font-extrabold">Enrolled in a Program – </span>
               You must be officially enrolled in one of our courses.
@@ -45,10 +45,10 @@ export const Eligibility = () => {
               before the deadline.
             </li>
           </ul>
-          <p className="">
+          <p className="text-[14px] md:text-[16px] mt-2">
             Take advantage of this opportunity to invest in your future!
           </p>
-          <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg  transition">
+          <button className="px-8 py-2 md:w-fit w-full text-white bg-[#DA251C] rounded-md shadow-lg  transition mt-4">
             Apply Now
             <span className="font-extrabold"> &rarr;</span>
           </button>

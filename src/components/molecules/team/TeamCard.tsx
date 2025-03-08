@@ -14,8 +14,12 @@ export const TeamCard = () => {
               <Image src={tutor.src} alt="tutor" fill />
             </div>
             <div className="p-4">
-              <h3 className="font-semibold mb-1">{tutor.name}</h3>
-              <p className="text-sm mb-2">{tutor.position}</p>
+              <h3 className="font-semibold mb-1 text-[16px] md:text-[18px] lg:text-[20px]">
+                {tutor.name}
+              </h3>
+              <p className="text-[14px] lg:text-[16px] mb-2">
+                {tutor.position}
+              </p>
             </div>
           </div>
         ))}

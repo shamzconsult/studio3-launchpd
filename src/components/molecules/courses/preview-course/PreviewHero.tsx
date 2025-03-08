@@ -10,11 +10,13 @@ export const PreviewHero = ({ courseData }: { courseData: CourseType }) => {
     <section className="bg-[#FFF6EF]">
       <div className="flex flex-col items-center justify-center gap-6 lg:gap-16 max-w-6xl mx-auto  px-4 py-20 lg:px-0 mt-20">
         <div className="text-center">
-          <p className="font-medium tracking-wide">ABOUT THE COURSE</p>
-          <h1 className="text-left lg:text-center text-3xl  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold max-w-2xl mt-6">
+          <p className="font-medium tracking-wide text-[10px] md:text-[14px]">
+            ABOUT THE COURSE
+          </p>
+          <h1 className="text-left lg:text-center text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold max-w-2xl mt-6">
             Learn about our {courseData.title}
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-left lg:text-center">
+          <p className="mt-6 max-w-2xl mx-auto text-left text-[14px] md:text-[16px] lg:text-center">
             {courseData.previewDescription}
           </p>
         </div>
@@ -34,7 +36,7 @@ export const PreviewHero = ({ courseData }: { courseData: CourseType }) => {
           </div>
 
           <div className="flex-1 text-left text-[#393939] bg-[#FAFAFA] rounded-xl border border-gray-500  p-4">
-            <ul className="font-medium   grid grid-cols-2 gap-3 justify-center items-center">
+            <ul className="font-medium   grid grid-cols-2 gap-3 justify-center items-center text-[14px] md:text-[16px]">
               <li className="flex items-center gap-1">
                 <HiOutlineLocationMarker /> Online
               </li>

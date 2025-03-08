@@ -24,8 +24,10 @@ export const ProgramStructure = () => {
   return (
     <div className="max-w-6xl mx-auto py-24 px-4">
       <div className="text-center">
-        <h2 className="text-3xl font-bold">Program Structure</h2>
-        <p className=" mt-2">
+        <h2 className="text-[28px]  md:text-[32px] font-bold">
+          Program Structure
+        </h2>
+        <p className=" mt-2 text-[14px] md:text-[16px]">
           We provide structured programs activities to give you the best
           learning experience
         </p>
@@ -39,8 +41,10 @@ export const ProgramStructure = () => {
             <div className="text-2xl p-2 bg-[#FFD0CD] rounded-full">
               <feature.icon />
             </div>
-            <h3 className="text-lg font-bold">{feature.title}</h3>
-            <p>{feature.description}</p>
+            <h3 className="text-[16px] md:text-[20px] font-bold">
+              {feature.title}
+            </h3>
+            <p className="text-[14px] md:text-[16px]">{feature.description}</p>
           </div>
         ))}
       </div>

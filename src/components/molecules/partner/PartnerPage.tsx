@@ -9,7 +9,7 @@ export const PartnerPage = () => {
   return (
     <div className="">
       <PartnerHero />
-      <div className="py-20">
+      <div className=" py-10 lg:py-20">
         <BenefitCards
           header="Why you should partner with us"
           subheader="Unlock unparalleled opportunities for growth, impact, and innovation."

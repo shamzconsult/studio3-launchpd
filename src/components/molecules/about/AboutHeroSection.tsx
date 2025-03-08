@@ -8,7 +8,7 @@ export const AboutHeroSection = () => {
           <h1 className="text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold  mb-4">
             Where ambition meets opportunity!
           </h1>
-          <h4 className="text-[12px] md:text-[14px] lg:text-[16px] max-w-3xl">
+          <h4 className="text-[14px] md:text-[16px] max-w-3xl">
             Bridging the gap between potential and achievement by offering
             immersive, hands-on learning experiences that prepare learners for
             real-world challenges in the tech industry.

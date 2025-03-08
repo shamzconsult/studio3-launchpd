@@ -4,11 +4,14 @@ interface PartnerHeader {
 
 export const PartnerForm = ({ header = "" }: PartnerHeader) => {
   return (
-    <div className="max-w-6xl mx-auto py-20  px-4 lg:px-0 " id="form">
+    <div
+      className="max-w-6xl mx-auto py-4 md:py-8 lg:py-20  px-4 lg:px-0 "
+      id="form"
+    >
       {header && (
         <h1 className="text-2xl font-bold text-center mb-6">{header}</h1>
       )}
-      <div className="p-4 lg:p-8 rounded-2xl shadow-2xl w-full md:w-[591px] mx-auto border-t-4 border-[#DA251C] mt-10">
+      <div className="p-3 md:p-4 lg:p-8 rounded-2xl shadow-2xl w-full md:w-[591px] mx-auto border-t-4 border-[#DA251C] mt-10">
         <form>
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium  mb-2">
@@ -18,7 +21,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
               type="text"
               id="name"
               name="name"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
+              className="w-full px-4 py-2 border placeholder:text-[14px] md:placeholder:text-[16px] rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
               placeholder="Enter Name"
               required
             />
@@ -31,7 +34,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
               type="email"
               id="email"
               name="email"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
+              className="w-full px-4 py-2 border placeholder:text-[14px] md:placeholder:text-[16px] rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
               placeholder="email address"
               required
             />
@@ -47,7 +50,7 @@ export const PartnerForm = ({ header = "" }: PartnerHeader) => {
               id="message"
               name="message"
               rows={5}
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
+              className="w-full px-4 py-2 border placeholder:text-[14px] md:placeholder:text-[16px] rounded-md focus:outline-none focus:ring-2 focus:ring-[#DA251C]"
               placeholder="Type your message, enquiries or questions here"
               required
             />

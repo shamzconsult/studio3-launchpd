@@ -24,7 +24,7 @@ export const CourseAudience = ({ courseData }: { courseData: CourseType }) => {
     <div className="max-w-6xl mx-auto px-4 py-20 mt-8 lg:px-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start ">
         <div>
-          <h2 className="text-4xl lg:text-5xl font-bold max-w-md  mb-8">
+          <h2 className="text-[24px] md:text-[40px] lg:text-5xl font-bold max-w-md  mb-8">
             Who is this Course for?
           </h2>
           <div className="relative w-full lg:w-[385px] h-[268px]">
@@ -41,7 +41,10 @@ export const CourseAudience = ({ courseData }: { courseData: CourseType }) => {
           {audienceDetails.map(({ icon, text }, index) => {
             const IconComponent = iconMap[icon];
             return (
-              <div key={index} className="flex flex-col items-start gap-4">
+              <div
+                key={index}
+                className="flex flex-col items-start gap-4 text-[14px] md:text-[16px]"
+              >
                 <div className="bg-[#FFD0CD] p-3 rounded-full">
                   {IconComponent && (
                     <IconComponent className="text-lg text-[#0A0A0A]" />

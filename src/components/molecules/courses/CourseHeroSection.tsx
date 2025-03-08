@@ -5,10 +5,10 @@ export const CourseHeroSection = () => {
     <div className="max-w-6xl mx-auto  px-4 py-20 lg:px-0 lg:mt-20">
       <section className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="max-w-xl mt-10">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+          <h1 className="text-[32px] md:text-[40px]  lg:text-5xl  font-bold leading-tight mb-4">
             Learn. Grow. Succeed.
           </h1>
-          <h4 className="text-lg max-w-l">
+          <h4 className="text-[14px]  md:text-[16px] max-w-l">
             Start your journey to success with our expert-led courses designed
             to unlock your full potential. Start learning today and achieve your
             dreams, gain in-demand skills, and unlock your potential!

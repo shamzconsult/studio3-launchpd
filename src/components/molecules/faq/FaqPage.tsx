@@ -37,11 +37,11 @@ export const FaqPage = () => {
   return (
     <div>
       <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 ">
-        <div className="max-w-6xl mx-auto py-14">
-          <h1 className="text-2xl md:text-5xl font-bold leading-tight">
+        <div className="max-w-6xl mx-auto pt-14">
+          <h1 className="text-[32px] md:text-[40px]  lg:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
           </h1>
-          <p className=" mt-4 font-medium max-w-sm">
+          <p className="text-[14px]  md:text-[16px] mt-4 font-medium max-w-sm">
             Empowering learners and teachers alike. Discover the path to success
             with us!
           </p>

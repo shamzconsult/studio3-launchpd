@@ -36,11 +36,13 @@ export const CourseCard = ({
             </div>
             <section className="flex flex-col flex-1  justify-evenly gap-3 items-start p-2">
               <div className="flex-1 w-full">
-                <div className="flex justify-between font-semibold w-full pr-3 mb-1">
+                <div className="flex justify-between text-[16px] md:text-[18px] lg:text-[20px] font-semibold w-full pr-3 mb-1">
                   <h3>{course.title}</h3>
                   {course.price !== undefined && <h3>${course.price}</h3>}
                 </div>
-                <p className="text-[#747474] text-sm ">{course.description}</p>
+                <p className="text-[#747474] text-[14px] md:text-[16px] ">
+                  {course.description}
+                </p>
               </div>
               <Link
                 href={`/courses/${course.slug}`}

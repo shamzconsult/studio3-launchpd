@@ -11,11 +11,11 @@ export const PricingHeroSection = () => {
   return (
     <section className="max-w-6xl mx-auto py-20  flex flex-col gap-5 lg:flex-row justify-between lg:items-center mt-12 w-full px-4 lg:mt-20 lg:px-0">
       <div className="max-w-xl">
-        <h1 className="text-3xl md:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
+        <h1 className="text-[32px] md:text-[40px]  lg:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
           <span className="text-[#DA251C]">Affordable</span> plans for your
           educational journey ahead!
         </h1>
-        <p className="text-lg mb-6">
+        <p className="text-[14px]  md:text-[16px] mb-6">
           Empowering learners and teachers alike. Discover the path to success
           with us!
         </p>

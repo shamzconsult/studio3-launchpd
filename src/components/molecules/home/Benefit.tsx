@@ -21,7 +21,7 @@ export const Benefit = () => {
           <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-bold">
             Financial Aid
           </h1>
-          <p className="mt-2 text-[12px] md:text-[14px] lg:text-[16px] font-medium max-w-4xl mx-auto  ">
+          <p className="mt-2 text-[14px] md:text-[16px] lg:text-[18px] font-medium max-w-4xl mx-auto  ">
             Looking for financial support to boost your learning journey?
             Discover our financial aid options and join our Studio3 Launchpad
             community today!

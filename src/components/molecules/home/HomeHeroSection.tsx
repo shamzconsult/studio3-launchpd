@@ -5,7 +5,7 @@ export const HomeHeroSection = () => {
   return (
     <section className="max-w-6xl mx-auto py-[60px] lg:py-[80px]  flex flex-col gap-5 lg:flex-row justify-center lg:items-center mt-16 w-full  lg:px-0 ">
       <div className="max-w-xl p-4 lg:p-0">
-        <h1 className="text-3xl md:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
+        <h1 className="text-[32px] md:text-5xl font-extrabold leading-normal md:leading-[60px] mb-4">
           Unlock your
           <span className="text-[#DA251C] relative whitespace-nowrap pl-1">
             Potential
@@ -14,7 +14,7 @@ export const HomeHeroSection = () => {
           <br />
           with our Innovative Learning Platform
         </h1>
-        <p className="text-lg mb-6">
+        <p className="text-[14px] md:text-[16px] lg:text-[18px] max-w-lg mb-6">
           Designed to empower students and educators. Join us on a journey of
           growth!
         </p>
