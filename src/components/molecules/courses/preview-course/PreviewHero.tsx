@@ -16,7 +16,7 @@ export const PreviewHero = ({ courseData }: { courseData: CourseType }) => {
           <h1 className="text-left lg:text-center text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px] font-bold max-w-2xl mt-6">
             Learn about our {courseData.title}
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-left text-[14px] md:text-[16px] lg:text-center">
+          <p className="mt-6 max-w-2xl mx-auto text-left text-[14px]  md:text-[16px] lg:text-center">
             {courseData.previewDescription}
           </p>
         </div>

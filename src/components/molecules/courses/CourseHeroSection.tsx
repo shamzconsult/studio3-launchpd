@@ -8,7 +8,7 @@ export const CourseHeroSection = () => {
           <h1 className="text-[32px] md:text-[40px]  lg:text-5xl  font-bold leading-tight mb-4">
             Learn. Grow. Succeed.
           </h1>
-          <h4 className="text-[14px]  md:text-[16px] max-w-l">
+          <h4 className="text-[14px]  md:text-[16px] max-w-l ">
             Start your journey to success with our expert-led courses designed
             to unlock your full potential. Start learning today and achieve your
             dreams, gain in-demand skills, and unlock your potential!

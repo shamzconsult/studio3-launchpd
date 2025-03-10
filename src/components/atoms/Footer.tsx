@@ -13,11 +13,11 @@ export const Footer = () => {
 
   return (
     <footer className="mt-20 md:mt-32 bg-white">
-      <div className="max-w-6xl mx-auto px-6 py-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-center gap-8">
+      <div className="max-w-6xl mx-auto px-6 py-4 lg:px-0">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-32 ">
           <div className="flex flex-col gap-3">
             <Logo />
-            <p className="text-sm ">
+            <p className="text-sm max-w-sm">
               Empowering learners with quality, accessible, and engaging
               educational resources.
             </p>
@@ -59,90 +59,110 @@ export const Footer = () => {
               </a>
             </div>
           </div>
-
-          <div>
-            <h4 className="font-semibold  mb-4">Company</h4>
-            <ul className="space-y-5 ">
-              <li>
-                <Link href="/about" className="hover:text-red-500">
-                  About us
-                </Link>
-              </li>
-              <li>
-                <Link href="/team" className="hover:text-red-500">
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-red-500">
-                  Contact us
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold  mb-4">Courses</h4>
-            <div className="flex flex-col space-y-5">
-              {course.map((course, index) => (
-                <Link key={index} href={`/courses/${course.slug}`}>
-                  {course.title}
-                </Link>
-              ))}
+          <section className="  flex flex-col md:flex-row justify-evenly gap-8 lg:gap-24">
+            <div>
+              <h4 className="font-semibold  mb-4">Company</h4>
+              <ul className="space-y-5 ">
+                <li>
+                  <Link
+                    href="/about"
+                    className="hover:text-red-500 text-nowrap"
+                  >
+                    About us
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/team" className="hover:text-red-500 text-nowrap">
+                    Team
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="hover:text-red-500 text-nowrap"
+                  >
+                    Contact us
+                  </Link>
+                </li>
+              </ul>
             </div>
-          </div>
 
-          <div>
-            <h4 className="font-semibold  mb-4">Resources</h4>
-            <ul className="space-y-5 ">
-              <li>
-                <Link href="/finance" className="hover:text-red-500">
-                  Financial Aid
-                </Link>
-              </li>
-              <li>
-                <Link href="/partner" className="hover:text-red-500">
-                  Partnership
-                </Link>
-              </li>
-              <li>Join as Tutor</li>
-              <li>Services</li>
-              <li>
-                <Link href="/contact" className="hover:text-red-500">
-                  Contact us
-                </Link>
-              </li>
-            </ul>
-          </div>
+            <div>
+              <h4 className="font-semibold  mb-4">Courses</h4>
+              <div className="flex flex-col space-y-5">
+                {course.map((course, index) => (
+                  <Link
+                    className="hover:text-red-500 text-nowrap"
+                    key={index}
+                    href={`/courses/${course.slug}`}
+                  >
+                    {course.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
 
-          <div>
-            <h4 className="font-semibold  mb-4">FAQs</h4>
-            <ul className="space-y-5 ">
-              <li>
-                <Link href="/faq" className="hover:text-red-500">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-red-500">
-                  Courses
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-red-500">
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-red-500">
-                  Technical Support
-                </Link>
-              </li>
-            </ul>
-          </div>
+            <div>
+              <h4 className="font-semibold  mb-4">Resources</h4>
+              <ul className="space-y-5 ">
+                <li>
+                  <Link
+                    href="/finance"
+                    className="hover:text-red-500 text-nowrap"
+                  >
+                    Financial Aid
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/partner"
+                    className="hover:text-red-500 text-nowrap"
+                  >
+                    Partnership
+                  </Link>
+                </li>
+                <li>Join as Tutor</li>
+                <li>Services</li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="hover:text-red-500 text-nowrap"
+                  >
+                    Contact us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold  mb-4">FAQs</h4>
+              <ul className="space-y-5 ">
+                <li>
+                  <Link href="/faq" className="hover:text-red-500 text-nowrap">
+                    Pricing
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq" className="hover:text-red-500 text-nowrap">
+                    Courses
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq" className="hover:text-red-500 text-nowrap">
+                    Getting Started
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq" className="hover:text-red-500 text-nowrap">
+                    Technical Support
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
 
-        <div className="text-start  mt-12 border-t border-[#767676] pt-6 py-3">
+        <div className="text-center  mt-12 border-t border-[#767676] pt-6 py-3">
           © All rights reserved
         </div>
       </div>
