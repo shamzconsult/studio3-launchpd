@@ -5,7 +5,9 @@ export const Approach = () => {
     <div className="max-w-6xl mx-auto py-20 px-4">
       <section className="flex  flex-col  md:flex-row justify-between gap-3 md:gap-10 mb-3">
         <div className="max-w-3xl">
-          <p className="mb-2">Our Approach</p>
+          <p className="bg-[#FFECBF] p-2 rounded-lg w-fit mb-2 px-6 text-[10px] md:text-[12px] lg:text-[14px]">
+            Our Approach
+          </p>
           <h1 className="text-[32px] md:text-[40px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold mb-4 ">
             At Studio3 Launchpad
           </h1>
@@ -22,7 +24,7 @@ export const Approach = () => {
             key={index}
             className="flex gap-2 bg-[#FAFAFA] border border-gray-300 rounded-lg px-2 py-4 md:p-[20px]"
           >
-            <p className="bg-[#FBE9E8] p-2 rounded-full w-fit h-fit">
+            <p className="bg-[#FFFFFF] text-[#DA251C] p-2 rounded-full w-fit h-fit">
               {typeof feature.icon === "string" ? (
                 feature.icon
               ) : (

@@ -5,7 +5,7 @@ export const Tutors = () => {
   const firstThreeTeam = team.slice(0, 3);
   return (
     <div className="max-w-6xl mx-auto py-20 px-4">
-      <p className="font-thin text-[10px] md:text-[12px] lg:text-[14px]">
+      <p className="text-[10px] md:text-[12px] lg:text-[14px] bg-[#FFECBF] p-2 rounded-lg w-fit mb-2 px-6">
         EXPERT TEAM
       </p>
       <h1 className="mt-3 text-[24px] md:text-[32px]  lg:text-5xl leading-normal md:leading-relaxed lg:leading-[60px]  font-bold  max-w-3xl">

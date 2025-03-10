@@ -7,7 +7,7 @@ export const team = [
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1741179041/Team_1_dw55dy.jpg",
+    src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1741627053/Frame_1000003618_2_gyjqan.png",
     name: "Imam Bashir Abdulwahab",
     position: "Program manager",
   },

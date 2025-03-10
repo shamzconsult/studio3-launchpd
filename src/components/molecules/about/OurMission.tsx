@@ -20,7 +20,7 @@ export const OurMission = () => {
       <div className="max-w-6xl mx-auto px-4 lg:px-0">
         <section className="flex  flex-col justify-between  md:flex-row gap-3 lg:gap-16 mb-3">
           <div>
-            <p className="bg-[#FFECBF] p-2 rounded-lg w-fit mb-2">
+            <p className="text-[10px] md:text-[12px] lg:text-[14px] bg-[#FFECBF] p-2 rounded-lg w-fit mb-2 px-6">
               OUR MISSION
             </p>
             <p className="max-w-2xl text-[12px] md:text-[14px] lg:text-[16px]">

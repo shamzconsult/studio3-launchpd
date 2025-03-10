@@ -1,7 +1,10 @@
 import { FaPeopleRoof } from "react-icons/fa6";
 import { GiTeacher, GiWorld } from "react-icons/gi";
-import { GrProjects } from "react-icons/gr";
-import { MdComputer, MdDiversity2 } from "react-icons/md";
+import {
+  MdComputer,
+  MdOutlineComputer,
+  MdOutlineFolderCopy,
+} from "react-icons/md";
 import { TbAward } from "react-icons/tb";
 
 export const features = [
@@ -45,7 +48,7 @@ export const featureslist = [
       "Build meaningful connections, collaborate with peers, and grow together.",
   },
   {
-    icon: GrProjects,
+    icon: MdOutlineFolderCopy,
     title: "Project-Driven Approach",
     description: "Gain practical experience by working on real-world projects.",
   },
@@ -56,7 +59,7 @@ export const featureslist = [
       "From resume building to interview preparation, we help you land your dream job.",
   },
   {
-    icon: MdDiversity2,
+    icon: MdOutlineComputer,
     title: "Accessible and Inclusive",
     description:
       "Our programs are designed to be accessible to learners from all backgrounds, ensuring no one is left behind.",
