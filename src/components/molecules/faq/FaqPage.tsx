@@ -42,8 +42,8 @@ export const FaqPage = () => {
             Find answers to your questions quickly
           </h1>
           <p className="text-[14px]  md:text-[16px] mt-4 font-medium max-w-sm">
-            Empowering learners and teachers alike. Discover the path to success
-            with us!
+            Got questions? Type them in and let us help you find the answers on
+            your path to success!
           </p>
           <div className="mt-4">
             <div className="relative max-w-7xl ">
