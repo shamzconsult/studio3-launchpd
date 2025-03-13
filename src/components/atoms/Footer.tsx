@@ -23,7 +23,7 @@ export const Footer = () => {
             </p>
             <div className="flex gap-2 items-center mt-3 ">
               <a
-                href="https://x.com/Studio3Launchpd"
+                href="https://x.com/Studio3HQ"
                 target="blank"
                 className="border border-[#393939] rounded-xl p-2 hover:border-red-600 duration-100 ease-in-out"
               >
