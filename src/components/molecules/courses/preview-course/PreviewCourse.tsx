@@ -10,7 +10,7 @@ import { courses, CourseType } from "@/const/courses";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 import Link from "next/link";
 
-const getRandomCourses = (courses: CourseType[], num: number) => {
+export const getRandomCourses = (courses: CourseType[], num: number) => {
   const shuffled = courses.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, num);
 };
