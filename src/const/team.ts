@@ -15,7 +15,7 @@ export const team = [
     id: 3,
     src: "https://res.cloudinary.com/dcgghkk7q/image/upload/v1741924400/Frame_1000003618-1_m7x3ul.png",
     name: "Chinonyelum Chime",
-    position: "Program manager",
+    position: "Program Team",
   },
   {
     id: 4,

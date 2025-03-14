@@ -13,7 +13,7 @@ import { generalFAQ } from "@/const/faqs";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 export const AboutPage = () => {
-  const aboutFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "about");
+  const aboutFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "started");
   return (
     <div>
       <AboutHeroSection />

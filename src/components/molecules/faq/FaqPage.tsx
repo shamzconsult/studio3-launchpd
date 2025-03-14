@@ -36,7 +36,7 @@ export const FaqPage = () => {
 
   return (
     <div>
-      <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 ">
+      <section className="bg-[#FBE9E8] px-4 py-20 lg:mt-20 overflow-x-auto ">
         <div className="max-w-6xl mx-auto pt-14">
           <h1 className="text-[32px] md:text-[40px]  lg:text-5xl font-bold leading-tight">
             Find answers to your questions quickly
@@ -62,16 +62,12 @@ export const FaqPage = () => {
         </div>
       </section>
 
-      <section className="py-20  overflow-x-auto">
+      <section className="py-20 ">
         <div className="max-w-4xl mx-auto text-center mb-8 lg:mb-10">
           <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
         </div>
 
-        <FAQButtons
-          choice={choice}
-          setQuestion={setQuestion}
-          generalFAQ={generalFAQ}
-        />
+        <FAQButtons choice={choice} />
         <div className="max-w-3xl mx-auto space-y-4 px-6 lg:mt-10">
           {filteredData.length > 0 ? (
             filteredData.map((faq, index) => (

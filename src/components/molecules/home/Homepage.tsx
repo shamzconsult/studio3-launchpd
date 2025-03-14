@@ -12,7 +12,7 @@ import { generalFAQ } from "@/const/faqs";
 import { getFAQQuestionsByCategory } from "@/utils/getFAQ";
 
 export default function HomePage() {
-  const homeFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "home");
+  const homeFAQQuestions = getFAQQuestionsByCategory(generalFAQ, "general");
   return (
     <div className="">
       <HomeHeroSection />

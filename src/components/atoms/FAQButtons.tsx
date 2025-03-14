@@ -10,41 +10,25 @@ export interface FAQItem {
 
 interface FAQButtonsProps {
   choice: (category: string) => void;
-  setQuestion: (faqs: FAQItem[]) => void;
-  generalFAQ: FAQItem[];
 }
 
-export const FAQButtons = ({
-  choice,
-  setQuestion,
-  generalFAQ,
-}: FAQButtonsProps) => {
-  const [activeCategory, setActiveCategory] = useState<string>("All");
+export const FAQButtons = ({ choice }: FAQButtonsProps) => {
+  const [activeCategory, setActiveCategory] = useState<string>("price");
 
   const handleButtonClick = (category: string) => {
     setActiveCategory(category);
-    if (category === "All") {
-      setQuestion(generalFAQ);
-    } else {
-      choice(category);
-    }
+    choice(category);
   };
 
   const buttonClasses = (category: string) =>
-    `border border-[#747474] px-6 rounded-md py-2 duration-300 hover:border-[#DA251C] ${
+    `border border-[#747474] px-4  rounded-md py-2 duration-300 hover:border-[#DA251C] ${
       activeCategory === category ? "bg-[#DA251C] text-white border-none" : ""
     }`;
   return (
     <div
-      className="mx-auto text-center font-medium mb-8 flex justify-center items-center gap-4 
-      overflow-x-auto whitespace-nowrap flex-nowrap scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 px-2 py-2"
+      className="mx-auto text-center max-w-6xl   font-medium mb-8 flex justify-center items-center gap-4 
+      overflow-x-auto flex-nowrap whitespace-nowrap  scrollbar-thumb-white scrollbar-track-white px-2 py-2"
     >
-      <button
-        onClick={() => handleButtonClick("All")}
-        className={buttonClasses("All")}
-      >
-        All
-      </button>
       <button
         onClick={() => handleButtonClick("price")}
         className={buttonClasses("price")}
@@ -55,19 +39,31 @@ export const FAQButtons = ({
         onClick={() => handleButtonClick("course")}
         className={buttonClasses("course")}
       >
-        Course content
+        Programs
       </button>
       <button
         onClick={() => handleButtonClick("started")}
         className={buttonClasses("started")}
       >
-        Getting started
+        Application
+      </button>
+      <button
+        onClick={() => handleButtonClick("partner")}
+        className={buttonClasses("partner")}
+      >
+        Partnership
+      </button>
+      <button
+        onClick={() => handleButtonClick("career")}
+        className={buttonClasses("career")}
+      >
+        Career
       </button>
       <button
         onClick={() => handleButtonClick("finance")}
         className={buttonClasses("finance")}
       >
-        Financial aid
+        Support
       </button>
     </div>
   );
