@@ -10,14 +10,24 @@ export interface FAQItem {
 
 interface FAQButtonsProps {
   choice: (category: string) => void;
+  setQuestion: (faqs: FAQItem[]) => void;
+  generalFAQ: FAQItem[];
 }
 
-export const FAQButtons = ({ choice }: FAQButtonsProps) => {
-  const [activeCategory, setActiveCategory] = useState<string>("price");
+export const FAQButtons = ({
+  choice,
+  setQuestion,
+  generalFAQ,
+}: FAQButtonsProps) => {
+  const [activeCategory, setActiveCategory] = useState<string>("All");
 
   const handleButtonClick = (category: string) => {
     setActiveCategory(category);
-    choice(category);
+    if (category === "All") {
+      setQuestion(generalFAQ);
+    } else {
+      choice(category);
+    }
   };
 
   const buttonClasses = (category: string) =>
@@ -29,6 +39,12 @@ export const FAQButtons = ({ choice }: FAQButtonsProps) => {
       className="mx-auto text-center max-w-6xl   font-medium mb-8 flex justify-center items-center gap-4 
       overflow-x-auto flex-nowrap whitespace-nowrap  scrollbar-thumb-white scrollbar-track-white px-2 py-2"
     >
+      <button
+        onClick={() => handleButtonClick("All")}
+        className={buttonClasses("All")}
+      >
+        All
+      </button>
       <button
         onClick={() => handleButtonClick("price")}
         className={buttonClasses("price")}

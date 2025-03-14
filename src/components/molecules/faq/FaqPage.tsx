@@ -67,7 +67,11 @@ export const FaqPage = () => {
           <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
         </div>
 
-        <FAQButtons choice={choice} />
+        <FAQButtons
+          choice={choice}
+          generalFAQ={generalFAQ}
+          setQuestion={setQuestion}
+        />
         <div className="max-w-3xl mx-auto space-y-4 px-6 lg:mt-10">
           {filteredData.length > 0 ? (
             filteredData.map((faq, index) => (
