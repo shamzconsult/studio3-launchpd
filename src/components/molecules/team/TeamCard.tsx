@@ -8,7 +8,7 @@ export const TeamCard = () => {
         {team.map((tutor, index) => (
           <div
             key={index}
-            className="bg-[#FFF6EF] rounded-lg overflow-hidden lg:w-[360px] "
+            className="bg-[#FFF6EF] rounded-lg overflow-hidden w-full md:w-[360px] "
           >
             <div className=" w-full  h-[300px] relative">
               <Image src={tutor.src} alt="tutor" fill />
